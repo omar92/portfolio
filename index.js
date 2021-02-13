@@ -124,8 +124,8 @@ var btns = btnContainer.getElementsByClassName("button");
 for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function($el){
         filterSelection($el.target.innerHTML);
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
+        var current = document.getElementsByClassName("is-focused");
+        current[0].className = current[0].className.replace(" is-focused", "");
+        this.className += " is-focused";
     });
 }

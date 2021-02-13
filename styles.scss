@@ -40,11 +40,8 @@ $link-hover: #E48632;
 .modal-trigger { cursor: pointer; }
 a.icon > strong {margin-left:.25rem}
 .modal-card-body div.content {margin:$margin-default}
-.filterDiv{align-items:stretch;display:none;flex-basis:0;flex-grow:1;flex-shrink:1;min-height:min-content}
-
-  .show {
-    display: block;
-  }
+.filterDiv{align-items:stretch;display:none;flex-basis:0;flex-grow:1;flex-shrink:1;min-height:min-content;}
+.show {display: block;}
 // import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/
 @import "~bulma/bulma"; 
 

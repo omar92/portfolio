@@ -122,69 +122,107 @@
     <div class="container">
       <h1 class="title">Projects</h1>
       <hr />
-      <!--<div id="filterBtnContainer">
-        <span class="subtitle">Sort By Tag : <span>
-        <button class="button active">All</button>
-        <button class="button ">PC</button>
-        <button class="button ">Mobile</button>
-        <button class="button ">VR</button>
-        <button class="button ">Unity</button>
-        <button class="button ">Unreal</button>
+
+      <div id="filterBtnContainer" class="tile is-ancestor box">
+          <article class="tile is-child is-2">
+          <p class="subtitle">Sort By Tag :</p>
+          </article>
+          <article class="tile is-child">
+          <button class="button is-warning is-inverted is-focused">All</button>
+          <button class="button is-warning is-inverted">PC</button>
+          <button class="button is-warning is-inverted">Mobile</button>
+          <button class="button is-warning is-inverted">VR</button>
+          <button class="button is-warning is-inverted">Unity</button>
+          <button class="button is-warning is-inverted">Unreal</button>
+          </article>
       </div>
-      <br>-->
-      <div class="tile is-ancestor">
-        <div class="tile is-12">
-          <div class="filterDiv PC Unity">
-            <div class="tile is-parent">
-              <article class="tile is-child box modal-trigger" data-target="project-1-modal">
+
+      <div class="tile is-ancestor is-vertical">
+        <!-- Sky Striders -->
+        <div class="filterDiv PC Unity">
+          <br>
+          <div class="tile is-12 is-vertical is-parent box">
+            <div class="tile is-parent modal-trigger" data-target="project-1-modal">
+              <article class="tile is-child is-4">
+                <figure class="image">
+                  <img src="img/SkyStrider-cover.png">
+                </figure>
+              </article>
+              <article class="box">
+              </article >
+              <article class="tile is-child">
                 <p class="title is-4">Sky Striders</p>
                 <div class="tags">
                   <span class="tag">PC</span>
                   <span class="tag">Multiplayer</span>
                   <span class="tag">Unity</span>
                 </div>
-                <figure class="image is-4by3">
-                  <img src="img/SkyStrider-cover.png">
-                </figure>
+                <p class="has-text-light">Sky Striders is an online multiplayer game that focuses on movement mechanics whether on the ground or in the air. Sky Striders will have many game modes that utilizes a dynamic set of movement abilities to push and challenge our players into moving fast with precision. Sky striders will have many characters that will differ in shape, and movement stats.</p>
               </article>
             </div>
           </div>
-          <div class="filterDiv PC VR Unreal">
-            <div class="tile is-parent">
-              <article class="tile is-child box modal-trigger" data-target="project-2-modal">
+        </div>
+        <!-- That Just Happend -->
+        <div class="filterDiv PC VR Unreal">
+          <br>
+          <div class="tile is-12 is-vertical is-parent box">
+            <div class="tile is-parent modal-trigger" data-target="project-2-modal">
+              <article class="tile is-child is-4">
+                <figure class="image">
+                  <img src="img/ThatJustHappend-cover.png">
+                </figure>
+              </article>
+              <article class="box">
+              </article >
+              <article class="tile is-child">
                 <p class="title is-4">That Just Happend</p>
                 <div class="tags">
                   <span class="tag">PC</span>
                   <span class="tag">VR</span>
                   <span class="tag">Unreal</span>
                 </div>
-                <figure class="image is-4by3">
-                  <img src="img/ThatJustHappend-cover.png">
-                </figure>
+                <p class="has-text-light">That just happend is a serious VR game about blue collars workplace safety, the purpose of the player is to help his/her co-workers by giving them safety equipments to save their lives from deadly accidents.</p>
               </article>
             </div>
           </div>
-          <div class="filterDiv Mobile Unity">
-            <div class="tile is-parent">
-              <article class="tile is-child box modal-trigger" data-target="project-3-modal">
+        </div>
+        <!-- Skull Switch -->
+        <div class="filterDiv Mobile Unity">
+          <br>
+          <div class="tile is-12 is-vertical is-parent box">
+            <div class="tile is-parent modal-trigger" data-target="project-3-modal">
+              <article class="tile is-child is-4">
+                <figure class="image">
+                  <img src="img/SkullSwitch-cover.png">
+                </figure>
+              </article>
+              <article class="box">
+              </article >
+              <article class="tile is-child">
                 <p class="title is-4">Skull Switch</p>
                 <div class="tags">
                   <span class="tag">Mobile</span>
                   <span class="tag">Unity</span>
                 </div>
-                <figure class="image is-4by3">
-                  <img src="img/SkullSwitch-cover.png">
-                </figure>
+                <p class="has-text-light">Skull Switch is a Hyper-Casual game where you try to save the skulls on screen from incoming danger by clicking on the lane which contains a skull to make it invisible before obstacles can destroy it.</p>
               </article>
             </div>
           </div>
         </div>
-      </div>
-      <div class="tile is-ancestor">
-        <div class="tile is-12">
-          <div class="filterDiv PC VR Unreal">
-            <div class="tile is-parent">
-              <article class="tile is-child box modal-trigger" data-target="project-4-modal">
+
+        <!-- Steam Blast -->
+        <div class="filterDiv PC VR Unreal">
+          <br>
+          <div class="tile is-12 is-vertical is-parent box">
+            <div class="tile is-parent modal-trigger" data-target="project-4-modal">
+              <article class="tile is-child is-4">
+                <figure class="image">
+                  <img src="img/SteamBlast-cover.png">
+                </figure>
+              </article>
+              <article class="box">
+              </article >
+              <article class="tile is-child">
                 <p class="title is-4">Steam Blast</p>
                 <div class="tags">
                   <span class="tag">PC</span>
@@ -192,58 +230,82 @@
                   <span class="tag">Multiplayer</span>
                   <span class="tag">Unreal</span>
                 </div>
-                <figure class="image is-4by3">
-                  <img src="img/SteamBlast-cover.png">
-                </figure>
+                <p class="has-text-light">Multiplayer VR fighting game where you can fly, attack your opponent and race to capture devices to take control of the city.</p>
               </article>
             </div>
           </div>
-          <div class="filterDiv PC Unity">
-            <div class="tile is-parent">
-              <article class="tile is-child box modal-trigger" data-target="project-5-modal">
+        </div>
+
+        <!-- Bomb Party -->
+        <div class="filterDiv PC Unity">
+          <br>
+          <div class="tile is-12 is-vertical is-parent box">
+            <div class="tile is-parent modal-trigger" data-target="project-5-modal">
+              <article class="tile is-child is-4">
+                <figure class="image">
+                  <img src="img/BoombPart-cover.png">
+                </figure>
+              </article>
+              <article class="box">
+              </article >
+              <article class="tile is-child">
                 <p class="title is-4">Bomb Party</p>
                 <div class="tags">
                   <span class="tag">PC</span>
                   <span class="tag">Unity</span>
                 </div>
-                <figure class="image is-4by3">
-                  <img src="img/BoombPart-cover.png">
-                </figure>
+                <p class="has-text-light">It is a game that have 4 player Throwing bombs at each other through portals or directly till the last man standing.</p>
               </article>
             </div>
           </div>
-          <div class="filterDiv Mobile Unity">
-            <div class="tile is-parent">
-              <article class="tile is-child box modal-trigger" data-target="project-6-modal">
+        </div>
+        
+        <!-- Killing Beat -->
+        <div class="filterDiv Mobile Unity">
+          <br>
+          <div class="tile is-12 is-vertical is-parent box">
+            <div class="tile is-parent modal-trigger" data-target="project-6-modal">
+              <article class="tile is-child is-4">
+                <figure class="image">
+                  <img src="img/KillingBeat-cover.png">
+                </figure>
+              </article>
+              <article class="box">
+              </article >
+              <article class="tile is-child">
                 <p class="title is-4">Killing Beat</p>
                 <div class="tags">
                   <span class="tag">Mobile</span>
                   <span class="tag">Unity</span>
                 </div>
-                <figure class="image is-4by3">
-                  <img src="img/KillingBeat-cover.png">
-                </figure>
+                <p class="has-text-light">It is a rhythm game that player try to avoid obstacle that spawn with beats.</p>
               </article>
             </div>
           </div>
         </div>
-      </div>
-      <div class="tile is-ancestor">
-        <div class="tile is-4">
-          <div class="filterDiv Mobile Unity">
-            <div class="tile is-parent">
-              <article class="tile is-child box modal-trigger" data-target="project-7-modal">
+
+        <!-- SymSam -->
+        <div class="filterDiv Mobile Unity">
+          <br>
+          <div class="tile is-12 is-vertical is-parent box">
+            <div class="tile is-parent modal-trigger" data-target="project-7-modal">
+              <article class="tile is-child is-4">
+                <figure class="image">
+                  <img src="img/SymSam-cover.png">
+                </figure>
+              </article>
+              <article class="box">
+              </article >
+              <article class="tile is-child">
                 <p class="title is-4">SymSam</p>
                 <div class="tags">
                   <span class="tag">Mobile</span>
                   <span class="tag">Unity</span>
                 </div>
-                <figure class="image is-4by3">
-                  <img src="img/SymSam-cover.png">
-                </figure>
+                <p class="has-text-light">It is a casual game that you have cut shapes to symmetry pieces.</p>
               </article>
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -498,7 +560,7 @@
       <section class="modal-card-body">
         <p class="title is-5">Description</p>
         <hr>
-        <p class="has-text-light">It is a game that you have shapes to symmetry pieces.</p>
+        <p class="has-text-light">It is a casual game that you have cut shapes to symmetry pieces.</p>
         <br>
         <p class="title is-5">Gameplay</p>
         <hr>                        
