@@ -1,0 +1,56 @@
+import { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Navigation from './sections/Navigation';
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Experience from './sections/Experience';
+import Contact from './sections/Contact';
+import Footer from './sections/Footer';
+
+gsap.registerPlugin(ScrollTrigger);
+
+function App() {
+  useEffect(() => {
+    // Initialize scroll-triggered animations
+    const ctx = gsap.context(() => {
+      // Reveal animations for sections
+      gsap.utils.toArray<HTMLElement>('.reveal-section').forEach((section) => {
+        gsap.fromTo(
+          section,
+          { opacity: 0.9, y: 20 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.6,
+            ease: 'expo.out',
+            scrollTrigger: {
+              trigger: section,
+              start: 'top 80%',
+              toggleActions: 'play none none none',
+            },
+          }
+        );
+      });
+    });
+
+    return () => ctx.revert();
+  }, []);
+
+  return (
+    <div className="relative min-h-screen bg-black text-white overflow-x-hidden">
+      <Navigation />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Experience />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;

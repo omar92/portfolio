@@ -1,0 +1,321 @@
+{
+  "personal": {
+    "name": "Omar Sleam",
+    "title": "Technical Game Architect",
+    "subtitle": "Creative Developer",
+    "email": "omarabdelzaher@gmail.com",
+    "location": "Egypt",
+    "github": "https://github.com/omar92",
+    "linkedin": "https://www.linkedin.com/in/omarsleam/",
+    "twitter": "https://twitter.com/oomar92",
+    "resume": "#",
+    "tagline": "Passionate game developer crafting immersive experiences with Unity, Unreal Engine, and cutting-edge technology. Specializing in VR, multiplayer games, and innovative gameplay mechanics.",
+    "about": "I'm a Technical Game Architect with over 8 years of experience building immersive gaming experiences. From VR adventures to multiplayer card games, I blend technical expertise with creative vision. I'm passionate about making games and interested in trying and learning new technologies. My experience spans across Unity, Unreal Engine, VR development, multiplayer systems, and serious games. I've worked on projects ranging from mobile card games to VR experiences and security training applications.",
+    "avatar": "https://avatars.githubusercontent.com/u/1458624?v=4"
+  },
+  "stats": [
+    {
+      "value": 8,
+      "suffix": "+",
+      "label": "Years Experience"
+    },
+    {
+      "value": 50,
+      "suffix": "+",
+      "label": "Projects Completed"
+    },
+    {
+      "value": 176,
+      "suffix": "",
+      "label": "GitHub Stars"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Game Engines",
+      "items": ["Unity", "Unreal Engine", "Phaser.js", "HTML5"]
+    },
+    {
+      "category": "Programming",
+      "items": ["C#", "C/C++", "JavaScript", "Java", "Python"]
+    },
+    {
+      "category": "Technologies",
+      "items": ["VR/AR", "Multiplayer Systems", "DOTS", "SmartFox Server"]
+    },
+    {
+      "category": "AI & Tools",
+      "items": ["ComfyUI", "Stable Diffusion", "Node Graph Systems"]
+    }
+  ],
+  "experience": [
+    {
+      "id": "zinad",
+      "company": "Zinad",
+      "url": "https://zinad.net/",
+      "position": "Senior Game Programmer",
+      "startDate": "Feb 2020",
+      "endDate": "Present",
+      "description": [
+        "Acting as Development Team Lead",
+        "Developing serious games regarding security awareness",
+        "Working on Web, Kinect and VR games"
+      ],
+      "skills": ["C#", "Unity", "JavaScript", "VR", "Kinect"]
+    },
+    {
+      "id": "iti",
+      "company": "ITI (Information Technology Institute)",
+      "url": "https://www.iti.gov.eg/iti/home",
+      "position": "Teaching Assistant",
+      "startDate": "Aug 2018",
+      "endDate": "Feb 2020",
+      "description": [
+        "Responsible for teaching multiple subjects as: C/C++, HTML5 game development, design patterns, Unity3D game engine, Games Optimization, version control, etc."
+      ],
+      "skills": ["C/C++", "C#", "Unity", "JavaScript", "HTML5", "Design Patterns"]
+    },
+    {
+      "id": "a15",
+      "company": "A15",
+      "url": "http://a15.com/en-us/",
+      "position": "Game Programmer",
+      "startDate": "May 2015",
+      "endDate": "Oct 2017",
+      "description": [
+        "Responsible for rebuilding el3ab.com flash games to (web, android, iOS) Platforms using Unity3D and Phaser.js",
+        "Developing server-side of multiplayer card and board games using JAVA and Smart Fox Server"
+      ],
+      "skills": ["C#", "Unity", "JavaScript", "HTML5", "Java", "SmartFox"]
+    }
+  ],
+  "education": [
+    {
+      "id": "iti-diploma",
+      "school": "Information Technology Institute (ITI)",
+      "degree": "9-Month Diploma",
+      "field": "Game Development",
+      "startYear": 2017,
+      "endYear": 2018,
+      "project": "Rhythm Attack",
+      "details": "Intensive game development program covering Unity, Unreal Engine, VR development, and game design principles."
+    },
+    {
+      "id": "computer-engineer",
+      "school": "Misr Higher Institute for Engineering and Technology",
+      "degree": "Bachelor's Degree",
+      "field": "Computer Engineering",
+      "startYear": 2008,
+      "endYear": 2013,
+      "grade": "Very Good",
+      "details": "Comprehensive computer engineering education with focus on software development and systems architecture."
+    }
+  ],
+  "projects": [
+    {
+      "id": "comfyui-qol",
+      "name": "ComfyUI Quality of Life Suit",
+      "category": "AI Tools",
+      "image": "https://opengraph.githubassets.com/1/omar92/ComfyUI-QualityOfLifeSuit_Omar92",
+      "tags": ["Python", "AI", "ComfyUI", "Open Source"],
+      "filterTags": ["AI", "Open Source", "Python"],
+      "shortDescription": "Popular ComfyUI extension with 144+ GitHub stars providing quality of life improvements for AI image generation workflows.",
+      "description": "A comprehensive suite of custom nodes for ComfyUI that enhances the AI image generation workflow. Features include ChatGPT integration, prompt enhancement, and various utility nodes. This extension has gained significant traction in the AI art community with over 144 stars on GitHub.",
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "https://github.com/omar92/ComfyUI-QualityOfLifeSuit_Omar92",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "ChatGPT integration for prompt generation",
+        "Custom nodes for workflow optimization",
+        "OpenAI API support",
+        "Community-driven improvements"
+      ],
+      "stats": {
+        "stars": 144,
+        "forks": 20
+      }
+    },
+    {
+      "id": "3ashara-talwa",
+      "name": "3ashara Talwa",
+      "category": "Mobile Game",
+      "image": "/projects/3ashara-talwa.jpg",
+      "tags": ["Mobile", "Multiplayer", "Unity", "Backgammon"],
+      "filterTags": ["Mobile", "Unity", "Multiplayer"],
+      "shortDescription": "Online multiplayer Backgammon game with strong AI, character customization, and multiple game modes.",
+      "description": "3ashara Talwa is an online multiplayer game based on the rules of Backgammon popular in the Middle East. The game features two game modes 'ma7bosa' and 'therteen', strong AI opponents, character customization, and many more features.",
+      "links": [],
+      "features": [
+        "Online multiplayer gameplay",
+        "Strong AI opponents",
+        "Character customization system",
+        "Multiple game modes",
+        "Middle Eastern Backgammon rules"
+      ]
+    },
+    {
+      "id": "estimation-kings",
+      "name": "Estimation Kings",
+      "category": "Mobile Game",
+      "image": "/projects/estimation-kings.jpg",
+      "tags": ["Mobile", "Multiplayer", "Phaser", "JavaScript", "Published"],
+      "filterTags": ["Mobile", "Web", "Published", "JavaScript"],
+      "shortDescription": "Published four-player trick-taking card game available on Google Play Store.",
+      "description": "Are you a pro Estimation Player? If you are familiar with Tarneeb, Spades, Trix, Hearts and Balot, you will extremely enjoy playing Estimation. Estimation Kings is a four players trick-taking card game where only kings survive.",
+      "links": [
+        {
+          "text": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.el3ab.Estimation",
+          "type": "store"
+        }
+      ],
+      "features": [
+        "Challenge online players worldwide",
+        "Progress through multiple levels",
+        "Create your own profile",
+        "Make new friends and chat",
+        "Challenge Facebook friends",
+        "Different game environments",
+        "Free to play without gambling"
+      ]
+    },
+    {
+      "id": "rhythm-attack",
+      "name": "Rhythm Attack VR",
+      "category": "VR Game",
+      "image": "/projects/rhythm-attack.jpg",
+      "tags": ["PC", "VR", "Unity", "Graduation Project"],
+      "filterTags": ["PC", "VR", "Unity"],
+      "shortDescription": "Hyper-casual VR rhythm game - ITI graduation project with 100% original coding, art, music, and VFX.",
+      "description": "Rhythm Attack is a hyper-casual VR game where you defeat rhythm monsters by cutting the minions they throw at you until they get tired, then attack them with your gun to drain their health. Every time you fail to kill the enemy, he gets mad and level difficulty increases. This game was a graduation project from ITI game development diploma.",
+      "links": [
+        {
+          "text": "Source Code",
+          "url": "https://github.com/omar92/RhythmAttack-VR",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "Immersive VR gameplay",
+        "Rhythm-based combat mechanics",
+        "Dynamic difficulty scaling",
+        "Original art and music",
+        "Custom VFX system"
+      ],
+      "videos": [
+        "https://www.youtube.com/embed/C-O4k4yMaR8",
+        "https://www.youtube.com/embed/ElA8NzXpk4E"
+      ]
+    },
+    {
+      "id": "zinad-games",
+      "name": "Zinad Security Games",
+      "category": "Serious Games",
+      "image": "/projects/zinad-games.jpg",
+      "tags": ["PC", "Web", "VR", "Unity", "Kinect", "Serious Games"],
+      "filterTags": ["PC", "Web", "VR", "Unity", "Kinect"],
+      "shortDescription": "Six serious games for security awareness training including Phishing Mania, Millionaire, and VR experiences.",
+      "description": "Zinad is a security solutions company that uses serious games to enhance employee security training. Developed 6 interactive games covering various security topics.",
+      "links": [],
+      "subProjects": [
+        {
+          "title": "Phishing Mania",
+          "tags": ["Web", "Unity"],
+          "description": "Game that teaches players how to identify phishing emails from real emails"
+        },
+        {
+          "title": "Who Will Be Millionaire",
+          "tags": ["Web", "Unity"],
+          "description": "Adaptation from the famous TV show focused on security field"
+        },
+        {
+          "title": "The Office VR",
+          "tags": ["VR", "Web", "Unity"],
+          "description": "Users eliminate clean desk policy violations before time runs out"
+        },
+        {
+          "title": "Password Ninja / URL Punk",
+          "tags": ["Web", "Unity"],
+          "description": "Users cut weak passwords and fake URLs to win"
+        },
+        {
+          "title": "Archery VR",
+          "tags": ["VR", "Unity"],
+          "description": "Users answer questions by throwing arrows at correct answers"
+        }
+      ]
+    },
+    {
+      "id": "unity-scroll-list",
+      "name": "Optimized Unity Scroll List",
+      "category": "Unity Tool",
+      "image": "/projects/unity-scroll.jpg",
+      "tags": ["Unity", "C#", "Optimization", "Open Source"],
+      "filterTags": ["Unity", "C#", "Open Source"],
+      "shortDescription": "Performance-optimized scroll list for Unity with object pooling and dynamic item recycling.",
+      "description": "A highly optimized scroll list implementation for Unity that uses object pooling and dynamic item recycling to handle large datasets efficiently. Perfect for mobile and desktop applications.",
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "https://github.com/omar92/Optmized-unity-scroll-list",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "Object pooling for performance",
+        "Dynamic item recycling",
+        "Mobile-optimized",
+        "Easy integration",
+        "Customizable item templates"
+      ]
+    },
+    {
+      "id": "cityville-structure",
+      "name": "CityVille Game Structure",
+      "category": "Unity Framework",
+      "image": "/projects/cityville.jpg",
+      "tags": ["Unity", "C#", "Architecture", "Open Source"],
+      "filterTags": ["Unity", "C#", "Open Source"],
+      "shortDescription": "Modular game architecture framework for city-building games in Unity.",
+      "description": "A comprehensive game structure and architecture framework designed for city-building games. Features modular systems for resource management, building placement, and save/load functionality.",
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "https://github.com/omar92/CityVille-GameStructure-",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "Modular architecture",
+        "Resource management system",
+        "Building placement grid",
+        "Save/Load system",
+        "Event-driven design"
+      ]
+    }
+  ],
+  "social": [
+    {
+      "id": "github",
+      "icon": "Github",
+      "url": "https://github.com/omar92",
+      "label": "GitHub"
+    },
+    {
+      "id": "linkedin",
+      "icon": "Linkedin",
+      "url": "https://www.linkedin.com/in/omarsleam/",
+      "label": "LinkedIn"
+    },
+    {
+      "id": "twitter",
+      "icon": "Twitter",
+      "url": "https://twitter.com/oomar92",
+      "label": "Twitter"
+    }
+  ]
+}
