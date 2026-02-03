@@ -2,7 +2,7 @@
   {
         "id": "project-comfyui",
         "name": "ComfyUI-QualityOfLifeSuit",
-        "image": "img/Projects/ComfyUI/logo.png",
+        "image": "img/Projects/ComfyUI/logo.svg",
         "tags": ["Python", "AI/ML", "Open Source", "176★"],
         "filterTags": ["Python", "AI", "Published"],
         "shortDescription": "A comprehensive suite of quality-of-life nodes for ComfyUI, the powerful stable diffusion GUI. Featured in the ComfyUI ecosystem with 176 stars and 23 forks on GitHub.",
@@ -77,7 +77,7 @@
       {
         "id": "project-unreal-games",
         "name": "Unreal Engine Game Collection",
-        "image": "img/Projects/Unreal/battle-blaster.png",
+        "image": "img/Projects/Unreal/battle-blaster.svg",
         "tags": ["Unreal Engine", "C++", "PC", "Multiplayer"],
         "filterTags": ["PC", "Unreal", "Multiplayer"],
         "shortDescription": "A collection of advanced Unreal Engine 5 projects showcasing multiplayer systems, combat mechanics, and modern C++ game development practices.",
@@ -205,7 +205,7 @@
   {
     "id": "project-unity-tools",
     "name": "Unity Development Tools",
-    "image": "img/Projects/Unity/tools.png",
+    "image": "img/Projects/Unity/tools.svg",
     "tags": ["Unity", "C#", "Open Source", "Tools"],
     "filterTags": ["Unity", "Tools"],
     "shortDescription": "A collection of professional Unity tools and frameworks including state machines, scriptable object systems, and UI optimization utilities used by developers worldwide.",
@@ -302,7 +302,7 @@
   {
     "id": "project-vr-collection",
     "name": "VR Development Portfolio",
-    "image": "img/Projects/VR/collection.png",
+    "image": "img/Projects/VR/collection.svg",
     "tags": ["VR", "Unity", "Oculus", "HTC Vive"],
     "filterTags": ["VR", "Unity"],
     "shortDescription": "Collection of VR projects demonstrating expertise in immersive technologies, including hackathon winners and training simulations.",
@@ -363,7 +363,7 @@
   {
     "id": "project-web-games",
     "name": "Web Game Development",
-    "image": "img/Projects/Web/webgl.png",
+    "image": "img/Projects/Web/webgl.svg",
     "tags": ["JavaScript", "WebGL", "HTML5", "Three.js"],
     "filterTags": ["Web", "JavaScript"],
     "shortDescription": "Modern web-based game projects utilizing WebGL, Three.js, and custom game engines. Includes multiplayer frameworks and game server architecture.",
