@@ -26,6 +26,55 @@
         ]
       },
       {
+        "id": "project-highstreet",
+        "name": "HighStreet Metaverse",
+        "image": "img/Projects/HighStreet/cover.svg",
+        "tags": ["Unity", "DOTS", "Multiplayer", "VR/XR"],
+        "filterTags": ["Unity", "VR", "Multiplayer"],
+        "shortDescription": "MMO metaverse platform with cross-platform web and VR support. Led architecture and systems design for large-scale multiplayer.",
+        "modalId": "project-highstreet-modal",
+        "description": "Led the architecture team for HighStreet's metaverse initiative. Designed and implemented networking infrastructure, matchmaking, and backend systems to support MMO-scale experiences. Built Unity DOTS-focused systems optimized for performance and cross-platform delivery.",
+        "features": [
+          "MMO-scale multiplayer architecture",
+          "Cross-platform web and VR support",
+          "Matchmaking and lobby systems",
+          "Unity DOTS optimization",
+          "Backend integration for live services"
+        ],
+        "links": [
+          {
+            "text": "Visit HighStreet",
+            "url": "https://www.highstreet.market",
+            "target": "_blank",
+            "class": "button is-warning"
+          }
+        ]
+      },
+      {
+        "id": "project-online-socket",
+        "name": "Online Game Socket.io",
+        "image": "img/Projects/Multiplayer/socketio.svg",
+        "tags": ["Unity", "C#", "Socket.io", "Multiplayer"],
+        "filterTags": ["Web", "Multiplayer"],
+        "shortDescription": "Real-time multiplayer game framework with Unity client integration and authoritative server architecture.",
+        "modalId": "project-online-socket-modal",
+        "description": "A complete multiplayer framework featuring Unity client integration with Socket.io server. Includes examples of real-time synchronization, player interpolation, and authoritative server design.",
+        "features": [
+          "Unity client + Socket.io server integration",
+          "Real-time player synchronization",
+          "Authoritative server architecture",
+          "Sample implementations for rapid prototyping"
+        ],
+        "links": [
+          {
+            "text": "View on GitHub",
+            "url": "https://github.com/omar92/onlineGameSocket.io",
+            "target": "_blank",
+            "class": "button is-warning"
+          }
+        ]
+      },
+      {
         "id": "project-unreal-games",
         "name": "Unreal Engine Game Collection",
         "image": "img/Projects/Unreal/battle-blaster.png",

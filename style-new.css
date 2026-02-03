@@ -1,23 +1,23 @@
 /* Modern Portfolio 2026 - Omar Sleam */
 
 :root {
-  /* Colors */
-  --primary: #00f5ff;
-  --primary-dark: #00b8c4;
-  --secondary: #ff006e;
-  --accent: #8338ec;
-  --bg-dark: #0a0e27;
-  --bg-darker: #050816;
-  --bg-card: rgba(15, 23, 42, 0.8);
-  --bg-glass: rgba(255, 255, 255, 0.05);
-  --text-primary: #ffffff;
-  --text-secondary: #94a3b8;
-  --border-color: rgba(255, 255, 255, 0.1);
+  /* Colors (Kimi-inspired) */
+  --primary: #7B61FF;
+  --primary-dark: #5F46E8;
+  --secondary: #A78BFF;
+  --accent: #A78BFF;
+  --bg-dark: #0B0E1A;
+  --bg-darker: #05060B;
+  --bg-card: rgba(11, 14, 26, 0.85);
+  --bg-glass: rgba(255, 255, 255, 0.04);
+  --text-primary: #F2F4FF;
+  --text-secondary: #A7B0D5;
+  --border-color: rgba(123, 97, 255, 0.2);
   
   /* Shadows */
-  --shadow-glow: 0 0 30px rgba(0, 245, 255, 0.3);
-  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
-  --shadow-hover: 0 12px 48px rgba(0, 245, 255, 0.2);
+  --shadow-glow: 0 0 30px rgba(123, 97, 255, 0.35);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.45);
+  --shadow-hover: 0 12px 48px rgba(123, 97, 255, 0.25);
   
   /* Transitions */
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -42,6 +42,16 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sora', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background: rgba(123, 97, 255, 0.25);
+  color: var(--text-primary);
 }
 
 /* Particle Background */
@@ -90,9 +100,11 @@ body {
 }
 
 .nav-logo {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 900;
+  font-family: 'Sora', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .logo-text {
@@ -169,7 +181,7 @@ body {
 .btn-primary {
   background: linear-gradient(135deg, var(--primary), var(--accent));
   color: var(--text-primary);
-  box-shadow: 0 4px 15px rgba(0, 245, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(123, 97, 255, 0.3);
 }
 
 .btn-primary:hover {
@@ -226,8 +238,12 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.hero-tagline {
+  margin-bottom: 1rem;
+}
+
 .hero-name {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Sora', sans-serif;
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 900;
   margin-bottom: 0.5rem;
@@ -426,20 +442,49 @@ section {
 }
 
 .section-tag {
-  display: inline-block;
-  color: var(--primary);
-  font-weight: 600;
-  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.18em;
+  color: var(--text-secondary);
+  background: rgba(11, 14, 26, 0.8);
+  border: 1px solid rgba(123, 97, 255, 0.35);
   margin-bottom: 1rem;
 }
 
 .section-title {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Sora', sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 900;
   margin-bottom: 1rem;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  background: #0B0E1A;
+  border: 1px solid rgba(123, 97, 255, 0.3);
+  color: var(--text-secondary);
+}
+
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
 }
 
 /* About Section */

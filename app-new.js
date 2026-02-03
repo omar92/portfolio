@@ -152,7 +152,7 @@ function initTypingEffect() {
   const typedTextSpan = document.querySelector('.typed-text');
   if (!typedTextSpan) return;
   
-  const textArray = ['Game Developer', 'Unity Expert', 'VR Specialist', 'Multiplayer Pro', 'Technical Lead'];
+  const textArray = ['Senior Gameplay Engineer', 'Systems Architect', 'Unity DOTS Specialist', 'Multiplayer Engineer', 'Tooling & AI'];
   const typingDelay = 100;
   const erasingDelay = 50;
   const newTextDelay = 2000;
