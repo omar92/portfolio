@@ -10,7 +10,9 @@ export function useData<T>(url: string): { data: T | null; loading: boolean; err
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch(url);
+        const baseUrl = import.meta.env.BASE_URL;
+        const fullUrl = new URL(url, baseUrl).href;
+        const response = await fetch(fullUrl);
         if (!response.ok) {
           throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
         }
