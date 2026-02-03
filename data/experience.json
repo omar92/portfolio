@@ -1,52 +1,59 @@
 [
   {
     "id": "zinad",
-    "company": "Zinad",
+    "company": "Zinad IT Solutions",
     "url": "https://zinad.net/",
     "logo": "img/ZINAD-IT-logo.png",
-    "position": "Senior Game Programmer",
+    "position": "Senior Game Developer & Team Lead",
     "startDate": "Feb 2020",
     "startDateTime": "2020-2",
     "endDate": "Present",
-    "endDateTime": "2021-2",
+    "endDateTime": "2026-2",
     "description": [
-      "Acting as Development Team Lead",
-      "Developing serious games regarding security awareness",
-      "Working on Web, kinect and VR games."
+      "Leading development team in creating innovative serious games for cybersecurity awareness training",
+      "Architecting and implementing multi-platform game solutions (Web, VR, Kinect) using Unity and modern web technologies",
+      "Mentoring junior developers and establishing coding standards and best practices for the team",
+      "Collaborating with security experts to translate complex cybersecurity concepts into engaging game mechanics",
+      "Managing full development lifecycle from concept to deployment for enterprise clients"
     ],
-    "skills": ["c#", "Unity", "JavaScript", "VR"]
+    "skills": ["C#", "Unity", "JavaScript", "VR Development", "WebGL", "Kinect", "Team Leadership", "Agile"]
   },
   {
     "id": "iti",
-    "company": "ITI",
+    "company": "Information Technology Institute (ITI)",
     "url": "https://www.iti.gov.eg/iti/home",
     "logo": "img/ITI-logo.jpg",
-    "position": "Teaching Assistant",
+    "position": "Game Development Teaching Assistant",
     "startDate": "Aug 2018",
     "startDateTime": "2018-8",
     "endDate": "Feb 2020",
     "endDateTime": "2020-2",
     "description": [
-      "Responsible for teaching multiple subjects as: c/c++ , HTML5 game development, design patterns, unity3D game engine, GamesOptimization, version control, ...etc."
+      "Instructed students in core game development subjects including C/C++, design patterns, and Unity3D engine",
+      "Developed comprehensive curriculum for HTML5 game development and optimization techniques",
+      "Guided students through hands-on projects and graduation projects in VR and traditional game development",
+      "Provided mentorship on industry-standard tools including version control (Git) and collaborative workflows"
     ],
-    "skills": ["C/C++", "C#", "Unity", "JavaScript", "HTML5", "design patterns"]
+    "skills": ["C/C++", "C#", "Unity", "JavaScript", "HTML5", "Design Patterns", "Git", "Teaching"]
   },
   {
     "id": "a15",
-    "company": "A15",
+    "company": "A15 / El3ab.com",
     "url": "http://a15.com/en-us/",
     "subUrl": "https://play.google.com/store/apps/details?id=com.el3ab.Estimation",
-    "subLabel": "-El3ab.com-",
+    "subLabel": "El3ab Gaming Platform",
     "logo": "img/a15-logo.gif",
-    "position": "Game Programmer",
+    "position": "Game Developer",
     "startDate": "May 2015",
-    "startDateTime": "2015-8",
+    "startDateTime": "2015-5",
     "endDate": "Oct 2017",
-    "endDateTime": "2017-6",
+    "endDateTime": "2017-10",
     "description": [
-      "Responsible for rebuilding el3ab.com flash games to (web, android,iOS) Platforms using Unity3D and Phaser.js.",
-      "Developing server-side of multiplayer card and board games using JAVA and Smart Fox Server."
+      "Successfully migrated legacy Flash games to modern cross-platform solutions (Web, Android, iOS) using Unity3D and Phaser.js",
+      "Developed robust server-side architecture for real-time multiplayer card and board games using Java and SmartFox Server",
+      "Implemented responsive game UI/UX designs ensuring consistent experience across all platforms",
+      "Optimized game performance and reduced loading times by 40% through code optimization and asset management"
     ],
-    "skills": ["C#", "Unity", "JavaScript", "HTML5", "Java", "SmartFox"]
+    "skills": ["C#", "Unity", "JavaScript", "Phaser.js", "HTML5", "Java", "SmartFox Server", "Multiplayer Systems"]
   }
 ]

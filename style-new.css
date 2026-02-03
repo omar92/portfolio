@@ -840,13 +840,13 @@ section {
 
 .contact-method {
   display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1.5rem;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2rem;
   background: var(--bg-card);
   backdrop-filter: blur(10px);
   border: 1px solid var(--border-color);
-  border-radius: 15px;
+  border-radius: 20px;
   text-decoration: none;
   color: var(--text-primary);
   transition: var(--transition);
@@ -859,17 +859,62 @@ section {
 }
 
 .contact-icon {
-  width: 50px;
-  height: 50px;
-  background: var(--bg-glass);
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
-  color: var(--primary);
+  font-size: 1.8rem;
+  color: #fff;
+  position: relative;
 }
 
+.contact-icon::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  border-radius: 50%;
+  opacity: 0;
+  transition: var(--transition);
+  z-index: -1;
+  filter: blur(10px);
+}
+
+.contact-method:hover .contact-icon::before {
+  opacity: 0.5;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.3rem;
+}
+
+.contact-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.contact-description {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+/* Legacy support for old contact data structure */
 .contact-label {
   font-size: 0.85rem;
   color: var(--text-secondary);

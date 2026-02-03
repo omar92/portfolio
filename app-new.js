@@ -432,20 +432,15 @@ function renderContact() {
   const container = document.querySelector('[data-section="contact"]');
   if (!container) return;
   
-  const contactMap = {
-    github: { icon: 'fab fa-github', label: 'GitHub' },
-    email: { icon: 'fas fa-envelope', label: 'Email' },
-    linkedin: { icon: 'fab fa-linkedin', label: 'LinkedIn' }
-  };
-  
   container.innerHTML = pageData.contact.map(contact => `
     <a href="${contact.url}" class="contact-method" target="_blank">
       <div class="contact-icon">
         <i class="${contact.icon}"></i>
       </div>
-      <div>
-        <div class="contact-label">${contactMap[contact.id]?.label || contact.id}</div>
-        <div class="contact-value">${contact.label}</div>
+      <div class="contact-info">
+        <div class="contact-title">${contact.title || contact.label}</div>
+        <div class="contact-subtitle">${contact.subtitle || contact.label}</div>
+        ${contact.description ? `<div class="contact-description">${contact.description}</div>` : ''}
       </div>
     </a>
   `).join('');

@@ -1,35 +1,51 @@
 [
   {
     "id": "iti-diploma",
-    "school": "INFORMATION TECHNOLOGY INSTITUTE (ITI)",
-    "degree": "9-Month Diploma",
+    "school": "Information Technology Institute (ITI)",
+    "degree": "Professional Diploma in Game Development",
     "startYear": 2017,
     "endYear": 2018,
-    "startDateTime": "2017-1",
-    "endDateTime": "2018-1",
+    "startDateTime": "2017-10",
+    "endDateTime": "2018-7",
     "details": [
       {
-        "label": "Track",
-        "value": "Game Development."
+        "label": "Program",
+        "value": "9-Month Intensive Game Development Program"
       },
       {
-        "label": "Project Name",
-        "value": "Rhythm Attack."
+        "label": "Specialization",
+        "value": "Game Programming & VR Development"
+      },
+      {
+        "label": "Graduation Project",
+        "value": "Rhythm Attack VR - Award-winning VR rhythm game"
+      },
+      {
+        "label": "Key Courses",
+        "value": "C/C++, Unity3D, Design Patterns, Game Optimization, VR Development"
       }
     ]
   },
   {
     "id": "computer-engineer",
-    "school": "Computer Engineer",
-    "degree": "Bachelor's degree",
+    "school": "Faculty of Engineering",
+    "degree": "Bachelor of Computer Engineering",
     "startYear": 2008,
     "endYear": 2013,
-    "startDateTime": "2008-1",
-    "endDateTime": "2013-1",
+    "startDateTime": "2008-9",
+    "endDateTime": "2013-6",
     "details": [
       {
         "label": "Grade",
-        "value": "Very Good."
+        "value": "Very Good"
+      },
+      {
+        "label": "Focus Areas",
+        "value": "Software Engineering, Computer Graphics, Artificial Intelligence"
+      },
+      {
+        "label": "Key Skills",
+        "value": "C/C++, Java, Data Structures, Algorithms, Computer Architecture"
       }
     ]
   }
