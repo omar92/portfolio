@@ -343,7 +343,7 @@ function showProjectModal(project) {
       if (section.type === 'iframe') {
         content = section.content;
       } else if (section.type === 'images') {
-        content = section.images.map(img => `<img src="${img}" alt="${project.name}">`).join('');
+        content = `<div class="modal-images-grid">${section.images.map(img => `<img src="${img}" alt="${project.name}">`).join('')}</div>`;
       } else {
         content = `<p>${section.content}</p>`;
       }
@@ -354,7 +354,7 @@ function showProjectModal(project) {
   let featuresHTML = '';
   if (project.features) {
     featuresHTML = `
-      <h3>Features</h3>
+      <h3>Key Features</h3>
       <ul>
         ${project.features.map(f => `<li>${f}</li>`).join('')}
       </ul>
@@ -363,7 +363,7 @@ function showProjectModal(project) {
   
   let subProjectsHTML = '';
   if (project.subProjects) {
-    subProjectsHTML = project.subProjects.map(sp => `
+    subProjectsHTML = `<h3>Sub Projects</h3>` + project.subProjects.map(sp => `
       <div class="sub-project">
         <h3>${sp.title}</h3>
         <div class="project-tags">
@@ -389,10 +389,12 @@ function showProjectModal(project) {
   
   modalBody.innerHTML = `
     <h2>${project.name}</h2>
-    <div class="project-tags" style="margin-bottom: 1.5rem;">
+    <div class="modal-tags-wrapper">
       ${project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('')}
     </div>
-    <p>${project.description}</p>
+    <div class="modal-description">
+      <p>${project.description.replace(/\n/g, '</p><p>')}</p>
+    </div>
     ${featuresHTML}
     ${subProjectsHTML}
     ${sectionsHTML}
