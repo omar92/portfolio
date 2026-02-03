@@ -8,6 +8,7 @@ import Projects from './sections/Projects';
 import Experience from './sections/Experience';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
+import AnimatedBackground from './components/AnimatedBackground';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -39,16 +40,22 @@ function App() {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-black text-white overflow-x-hidden">
-      <Navigation />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Experience />
-        <Contact />
-      </main>
-      <Footer />
+    <div className="relative min-h-screen text-slate-100 overflow-x-hidden">
+      {/* Animated 3D Background */}
+      <AnimatedBackground />
+      
+      {/* Content */}
+      <div className="relative z-10">
+        <Navigation />
+        <main>
+          <Hero />
+          <About />
+          <Projects />
+          <Experience />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }

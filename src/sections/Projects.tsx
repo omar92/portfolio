@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { ExternalLink, Github, Play, Star, GitFork } from 'lucide-react';
+import { ExternalLink, Github, Play, Star, GitFork, FolderGit2 } from 'lucide-react';
 import data from '../data/portfolio.json';
 import {
   Dialog,
@@ -135,7 +135,6 @@ const Projects = () => {
     if (project.image.startsWith('http')) {
       return project.image;
     }
-    // Fallback images for projects without proper images
     const fallbacks: Record<string, string> = {
       '3ashara-talwa': 'https://images.unsplash.com/photo-1611996908543-160275cc2f11?w=800&q=80',
       'estimation-kings': 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&q=80',
@@ -151,21 +150,22 @@ const Projects = () => {
     <section
       id="projects"
       ref={sectionRef}
-      className="relative py-24 lg:py-32 bg-black"
+      className="relative py-24 lg:py-32"
     >
       <div className="w-full px-6 lg:px-12">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="projects-label text-sm text-red-600 tracking-[0.2em] uppercase mb-4">
-            My Work
-          </p>
+          <div className="projects-label inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 mb-4">
+            <FolderGit2 size={16} className="text-indigo-400" />
+            <span className="text-sm text-indigo-300">Portfolio</span>
+          </div>
           <h2
             className="projects-headline text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4"
-            style={{ fontFamily: "'Big Shoulders Display', sans-serif" }}
+            style={{ fontFamily: "'Space Grotesk', sans-serif" }}
           >
-            Featured <span className="text-red-600">Projects</span>
+            Featured <span className="text-gradient">Projects</span>
           </h2>
-          <p className="projects-description text-white/60 max-w-2xl mx-auto">
+          <p className="projects-description text-slate-400 max-w-2xl mx-auto">
             A selection of games and interactive experiences I&apos;ve crafted throughout my career
           </p>
         </div>
@@ -178,8 +178,8 @@ const Projects = () => {
               onClick={() => setFilter(f)}
               className={`filter-btn px-4 py-2 text-sm font-medium rounded-full transition-all ${
                 filter === f
-                  ? 'bg-red-600 text-white'
-                  : 'bg-white/5 text-white/70 hover:bg-white/10 hover:text-white'
+                  ? 'bg-gradient-to-r from-indigo-600 to-violet-600 text-white'
+                  : 'bg-slate-800/50 text-slate-400 hover:bg-slate-700/50 hover:text-white'
               }`}
             >
               {f}
@@ -204,17 +204,17 @@ const Projects = () => {
                   className="project-image w-full h-full object-cover"
                 />
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
                 
                 {/* Stats badge */}
                 {(project as Project).stats?.stars && (
                   <div className="absolute top-3 right-3 flex items-center gap-3">
-                    <span className="flex items-center gap-1 px-2 py-1 bg-black/60 rounded-full text-xs text-yellow-400">
+                    <span className="flex items-center gap-1 px-2 py-1 bg-slate-900/80 rounded-full text-xs text-amber-400">
                       <Star size={12} fill="currentColor" />
                       {(project as Project).stats?.stars}
                     </span>
                     {(project as Project).stats?.forks && (
-                      <span className="flex items-center gap-1 px-2 py-1 bg-black/60 rounded-full text-xs text-white/70">
+                      <span className="flex items-center gap-1 px-2 py-1 bg-slate-900/80 rounded-full text-xs text-slate-400">
                         <GitFork size={12} />
                         {(project as Project).stats?.forks}
                       </span>
@@ -224,7 +224,7 @@ const Projects = () => {
 
                 {/* Category badge */}
                 <div className="absolute top-3 left-3">
-                  <span className="px-3 py-1 bg-red-600/80 backdrop-blur-sm rounded-full text-xs font-medium text-white">
+                  <span className="px-3 py-1 bg-gradient-to-r from-indigo-600/80 to-violet-600/80 backdrop-blur-sm rounded-full text-xs font-medium text-white">
                     {project.category}
                   </span>
                 </div>
@@ -232,10 +232,10 @@ const Projects = () => {
 
               {/* Content */}
               <div className="p-5">
-                <h3 className="text-xl font-bold text-white mb-2 group-hover:text-red-600 transition-colors">
+                <h3 className="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">
                   {project.name}
                 </h3>
-                <p className="text-white/60 text-sm line-clamp-2 mb-4">
+                <p className="text-slate-400 text-sm line-clamp-2 mb-4">
                   {project.shortDescription}
                 </p>
 
@@ -244,13 +244,13 @@ const Projects = () => {
                   {project.tags.slice(0, 3).map((tag, index) => (
                     <span
                       key={index}
-                      className="px-2 py-1 bg-white/5 rounded text-xs text-white/50"
+                      className="px-2 py-1 bg-slate-800/50 rounded text-xs text-slate-500"
                     >
                       {tag}
                     </span>
                   ))}
                   {project.tags.length > 3 && (
-                    <span className="px-2 py-1 bg-white/5 rounded text-xs text-white/50">
+                    <span className="px-2 py-1 bg-slate-800/50 rounded text-xs text-slate-500">
                       +{project.tags.length - 3}
                     </span>
                   )}
@@ -263,26 +263,26 @@ const Projects = () => {
 
       {/* Project Detail Dialog */}
       <Dialog open={!!selectedProject} onOpenChange={() => setSelectedProject(null)}>
-        <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto bg-zinc-900 border-white/10 text-white">
+        <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto glass-card border-slate-700 text-white">
           {selectedProject && (
             <>
               {/* Header Image */}
-              <div className="relative aspect-video -mx-6 -mt-6 mb-6 overflow-hidden">
+              <div className="relative aspect-video -mx-6 -mt-6 mb-6 overflow-hidden rounded-t-lg">
                 <img
                   src={getProjectImage(selectedProject)}
                   alt={selectedProject.name}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent" />
               </div>
 
               <DialogHeader>
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="px-3 py-1 bg-red-600/20 border border-red-600/30 rounded-full text-xs font-medium text-red-400">
+                  <span className="px-3 py-1 bg-indigo-500/20 border border-indigo-500/30 rounded-full text-xs font-medium text-indigo-400">
                     {selectedProject.category}
                   </span>
                   {selectedProject.stats?.stars && (
-                    <span className="flex items-center gap-1 text-xs text-yellow-400">
+                    <span className="flex items-center gap-1 text-xs text-amber-400">
                       <Star size={14} fill="currentColor" />
                       {selectedProject.stats.stars} stars
                     </span>
@@ -290,11 +290,11 @@ const Projects = () => {
                 </div>
                 <DialogTitle
                   className="text-3xl font-bold text-white"
-                  style={{ fontFamily: "'Big Shoulders Display', sans-serif" }}
+                  style={{ fontFamily: "'Space Grotesk', sans-serif" }}
                 >
                   {selectedProject.name}
                 </DialogTitle>
-                <DialogDescription className="text-white/60">
+                <DialogDescription className="text-slate-400">
                   {selectedProject.description}
                 </DialogDescription>
               </DialogHeader>
@@ -302,16 +302,16 @@ const Projects = () => {
               {/* Features */}
               {selectedProject.features && (
                 <div className="mt-6">
-                  <h4 className="text-sm font-semibold text-white/80 uppercase tracking-wider mb-3">
+                  <h4 className="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-3">
                     Key Features
                   </h4>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {selectedProject.features.map((feature, index) => (
                       <li
                         key={index}
-                        className="flex items-start gap-2 text-sm text-white/70"
+                        className="flex items-start gap-2 text-sm text-slate-400"
                       >
-                        <span className="w-1.5 h-1.5 bg-red-600 rounded-full mt-1.5 flex-shrink-0" />
+                        <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full mt-1.5 flex-shrink-0" />
                         {feature}
                       </li>
                     ))}
@@ -322,17 +322,17 @@ const Projects = () => {
               {/* Sub-projects */}
               {selectedProject.subProjects && (
                 <div className="mt-6">
-                  <h4 className="text-sm font-semibold text-white/80 uppercase tracking-wider mb-3">
+                  <h4 className="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-3">
                     Included Games
                   </h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {selectedProject.subProjects.map((sub, index) => (
                       <div
                         key={index}
-                        className="p-3 bg-white/5 rounded-lg border border-white/5"
+                        className="p-3 bg-slate-800/50 rounded-lg border border-slate-700"
                       >
                         <h5 className="font-medium text-white mb-1">{sub.title}</h5>
-                        <p className="text-xs text-white/50">{sub.description}</p>
+                        <p className="text-xs text-slate-500">{sub.description}</p>
                       </div>
                     ))}
                   </div>
@@ -342,7 +342,7 @@ const Projects = () => {
               {/* Videos */}
               {selectedProject.videos && selectedProject.videos.length > 0 && (
                 <div className="mt-6">
-                  <h4 className="text-sm font-semibold text-white/80 uppercase tracking-wider mb-3">
+                  <h4 className="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-3">
                     Videos
                   </h4>
                   <div className="grid gap-4">
@@ -362,14 +362,14 @@ const Projects = () => {
 
               {/* Tags */}
               <div className="mt-6">
-                <h4 className="text-sm font-semibold text-white/80 uppercase tracking-wider mb-3">
+                <h4 className="text-sm font-semibold text-slate-300 uppercase tracking-wider mb-3">
                   Technologies
                 </h4>
                 <div className="flex flex-wrap gap-2">
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-sm text-white/70"
+                      className="px-3 py-1 bg-slate-800/50 border border-slate-700 rounded-full text-sm text-slate-400"
                     >
                       {tag}
                     </span>
@@ -388,10 +388,10 @@ const Projects = () => {
                       rel="noopener noreferrer"
                       className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-medium transition-all ${
                         link.type === 'github'
-                          ? 'bg-white/10 text-white hover:bg-white/20'
+                          ? 'bg-slate-800 text-white hover:bg-slate-700'
                           : link.type === 'store'
-                          ? 'bg-green-600/20 text-green-400 border border-green-600/30 hover:bg-green-600/30'
-                          : 'bg-red-600 text-white hover:bg-red-700'
+                          ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500/30'
+                          : 'bg-gradient-to-r from-indigo-600 to-violet-600 text-white hover:from-indigo-500 hover:to-violet-500'
                       }`}
                     >
                       {link.type === 'github' && <Github size={18} />}

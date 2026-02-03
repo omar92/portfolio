@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Mail, MapPin, Send, Github, Linkedin, Twitter, Loader2, CheckCircle } from 'lucide-react';
+import { Mail, MapPin, Send, Github, Linkedin, Twitter, Loader2, CheckCircle, MessageSquare } from 'lucide-react';
 import data from '../data/portfolio.json';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -154,29 +154,30 @@ const Contact = () => {
     <section
       id="contact"
       ref={sectionRef}
-      className="relative py-24 lg:py-32 bg-black"
+      className="relative py-24 lg:py-32"
     >
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-red-600/5 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-indigo-500/5 to-transparent pointer-events-none" />
 
       <div className="relative w-full px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 max-w-6xl mx-auto">
           {/* Left Column - Info */}
           <div>
-            <p className="contact-label text-sm text-red-600 tracking-[0.2em] uppercase mb-4">
-              Get In Touch
-            </p>
+            <div className="contact-label inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 mb-4">
+              <MessageSquare size={16} className="text-indigo-400" />
+              <span className="text-sm text-indigo-300">Get In Touch</span>
+            </div>
 
             <h2
               className="contact-headline text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6"
-              style={{ fontFamily: "'Big Shoulders Display', sans-serif" }}
+              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
             >
               Let&apos;s Create
               <br />
-              <span className="text-red-600">Something Amazing</span>
+              <span className="text-gradient">Something Amazing</span>
             </h2>
 
-            <p className="contact-body text-white/60 text-base lg:text-lg mb-8 leading-relaxed">
+            <p className="contact-body text-slate-400 text-base lg:text-lg mb-8 leading-relaxed">
               Have a project in mind? Let&apos;s discuss how we can bring your vision
               to life. I&apos;m always open to new opportunities and collaborations.
             </p>
@@ -185,25 +186,25 @@ const Contact = () => {
             <div className="space-y-4 mb-8">
               <a
                 href={`mailto:${data.personal.email}`}
-                className="flex items-center gap-4 p-4 bg-white/5 rounded-xl border border-white/5 hover:border-red-600/30 transition-all group"
+                className="flex items-center gap-4 p-4 glass-card rounded-xl hover:border-indigo-500/30 transition-all group"
               >
-                <div className="p-3 bg-red-600/10 rounded-lg group-hover:bg-red-600/20 transition-colors">
-                  <Mail size={20} className="text-red-600" />
+                <div className="p-3 bg-indigo-500/10 rounded-lg group-hover:bg-indigo-500/20 transition-colors">
+                  <Mail size={20} className="text-indigo-400" />
                 </div>
                 <div>
-                  <p className="text-sm text-white/50 mb-1">Email</p>
-                  <p className="text-white group-hover:text-red-400 transition-colors">
+                  <p className="text-sm text-slate-500 mb-1">Email</p>
+                  <p className="text-white group-hover:text-indigo-400 transition-colors">
                     {data.personal.email}
                   </p>
                 </div>
               </a>
 
-              <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl border border-white/5">
-                <div className="p-3 bg-red-600/10 rounded-lg">
-                  <MapPin size={20} className="text-red-600" />
+              <div className="flex items-center gap-4 p-4 glass-card rounded-xl">
+                <div className="p-3 bg-violet-500/10 rounded-lg">
+                  <MapPin size={20} className="text-violet-400" />
                 </div>
                 <div>
-                  <p className="text-sm text-white/50 mb-1">Location</p>
+                  <p className="text-sm text-slate-500 mb-1">Location</p>
                   <p className="text-white">{data.personal.location}</p>
                 </div>
               </div>
@@ -211,13 +212,13 @@ const Contact = () => {
 
             {/* Social Links */}
             <div>
-              <p className="text-sm text-white/50 mb-4">Follow me on</p>
+              <p className="text-sm text-slate-500 mb-4">Follow me on</p>
               <div className="contact-socials flex gap-3">
                 <a
                   href={data.personal.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="contact-social p-4 bg-white/5 rounded-xl border border-white/5 text-white/70 hover:text-white hover:bg-red-600/20 hover:border-red-600/30 transition-all hover:scale-110"
+                  className="contact-social p-4 glass-card rounded-xl text-slate-400 hover:text-white hover:bg-indigo-500/20 hover:border-indigo-500/30 transition-all hover:scale-110"
                   aria-label="GitHub"
                 >
                   <Github size={22} />
@@ -226,7 +227,7 @@ const Contact = () => {
                   href={data.personal.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="contact-social p-4 bg-white/5 rounded-xl border border-white/5 text-white/70 hover:text-white hover:bg-red-600/20 hover:border-red-600/30 transition-all hover:scale-110"
+                  className="contact-social p-4 glass-card rounded-xl text-slate-400 hover:text-white hover:bg-indigo-500/20 hover:border-indigo-500/30 transition-all hover:scale-110"
                   aria-label="LinkedIn"
                 >
                   <Linkedin size={22} />
@@ -235,7 +236,7 @@ const Contact = () => {
                   href={data.personal.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="contact-social p-4 bg-white/5 rounded-xl border border-white/5 text-white/70 hover:text-white hover:bg-red-600/20 hover:border-red-600/30 transition-all hover:scale-110"
+                  className="contact-social p-4 glass-card rounded-xl text-slate-400 hover:text-white hover:bg-indigo-500/20 hover:border-indigo-500/30 transition-all hover:scale-110"
                   aria-label="Twitter"
                 >
                   <Twitter size={22} />
@@ -245,17 +246,17 @@ const Contact = () => {
           </div>
 
           {/* Right Column - Form */}
-          <div className="contact-form p-8 bg-zinc-900/50 border border-white/5 rounded-2xl">
+          <div className="contact-form p-8 glass-card rounded-2xl">
             <h3
               className="text-2xl font-bold text-white mb-6"
-              style={{ fontFamily: "'Big Shoulders Display', sans-serif" }}
+              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
             >
               Send a Message
             </h3>
 
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="form-field">
-                <label htmlFor="name" className="block text-sm text-white/70 mb-2">
+                <label htmlFor="name" className="block text-sm text-slate-400 mb-2">
                   Your Name
                 </label>
                 <input
@@ -271,7 +272,7 @@ const Contact = () => {
               </div>
 
               <div className="form-field">
-                <label htmlFor="email" className="block text-sm text-white/70 mb-2">
+                <label htmlFor="email" className="block text-sm text-slate-400 mb-2">
                   Your Email
                 </label>
                 <input
@@ -287,7 +288,7 @@ const Contact = () => {
               </div>
 
               <div className="form-field">
-                <label htmlFor="message" className="block text-sm text-white/70 mb-2">
+                <label htmlFor="message" className="block text-sm text-slate-400 mb-2">
                   Your Message
                 </label>
                 <textarea
@@ -307,9 +308,9 @@ const Contact = () => {
                 disabled={isSubmitting || isSubmitted}
                 className={`w-full py-4 px-6 rounded-xl font-medium flex items-center justify-center gap-2 transition-all ${
                   isSubmitted
-                    ? 'bg-green-600 text-white'
-                    : 'bg-red-600 text-white hover:bg-red-700'
-                } disabled:opacity-70`}
+                    ? 'bg-emerald-500 text-white'
+                    : 'bg-gradient-to-r from-indigo-600 to-violet-600 text-white hover:from-indigo-500 hover:to-violet-500'
+                } disabled:opacity-70 glow-indigo`}
               >
                 {isSubmitting ? (
                   <>

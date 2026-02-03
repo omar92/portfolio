@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { gsap } from 'gsap';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Code2 } from 'lucide-react';
 import data from '../data/portfolio.json';
 
 const Navigation = () => {
@@ -86,11 +86,14 @@ const Navigation = () => {
                 e.preventDefault();
                 scrollToSection('#home');
               }}
-              className="nav-logo text-2xl font-bold tracking-tight"
-              style={{ fontFamily: "'Big Shoulders Display', sans-serif" }}
+              className="nav-logo flex items-center gap-2 text-2xl font-bold tracking-tight group"
+              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
             >
+              <div className="p-2 rounded-lg bg-gradient-to-br from-indigo-600 to-violet-600 group-hover:from-indigo-500 group-hover:to-violet-500 transition-all">
+                <Code2 size={20} className="text-white" />
+              </div>
               <span className="text-white">Omar</span>
-              <span className="text-red-600">Sleam</span>
+              <span className="text-gradient">Sleam</span>
             </a>
 
             {/* Desktop Navigation */}
@@ -103,14 +106,14 @@ const Navigation = () => {
                     e.preventDefault();
                     scrollToSection(link.href);
                   }}
-                  className="nav-link relative text-sm font-medium text-white/80 hover:text-white transition-colors link-underline"
+                  className="nav-link relative text-sm font-medium text-slate-400 hover:text-white transition-colors link-underline"
                 >
                   {link.label}
                 </a>
               ))}
               <a
                 href={`mailto:${data.personal.email}`}
-                className="nav-cta px-5 py-2.5 bg-red-600 text-white text-sm font-medium rounded-full hover:bg-red-700 transition-colors btn-shine"
+                className="nav-cta px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-sm font-medium rounded-full hover:from-indigo-500 hover:to-violet-500 transition-all btn-shine"
               >
                 Let&apos;s Talk
               </a>
@@ -118,7 +121,7 @@ const Navigation = () => {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden p-2 text-white"
+              className="md:hidden p-2 text-slate-300 hover:text-white transition-colors"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle menu"
             >
@@ -130,7 +133,7 @@ const Navigation = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 z-40 bg-black/95 backdrop-blur-xl transition-all duration-500 md:hidden ${
+        className={`fixed inset-0 z-40 bg-slate-900/98 backdrop-blur-xl transition-all duration-500 md:hidden ${
           isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}
       >
@@ -143,9 +146,9 @@ const Navigation = () => {
                 e.preventDefault();
                 scrollToSection(link.href);
               }}
-              className="text-3xl font-bold text-white hover:text-red-600 transition-colors"
+              className="text-3xl font-bold text-white hover:text-indigo-400 transition-colors"
               style={{
-                fontFamily: "'Big Shoulders Display', sans-serif",
+                fontFamily: "'Space Grotesk', sans-serif",
                 animationDelay: `${index * 100}ms`,
               }}
             >
@@ -154,7 +157,7 @@ const Navigation = () => {
           ))}
           <a
             href={`mailto:${data.personal.email}`}
-            className="mt-4 px-8 py-3 bg-red-600 text-white text-lg font-medium rounded-full hover:bg-red-700 transition-colors"
+            className="mt-4 px-8 py-3 bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-lg font-medium rounded-full hover:from-indigo-500 hover:to-violet-500 transition-all"
           >
             Let&apos;s Talk
           </a>
