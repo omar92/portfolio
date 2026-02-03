@@ -1,0 +1,177 @@
+{
+  "skillCategories": [
+    {
+      "id": "game-engines",
+      "name": "Game Engines",
+      "icon": "⚙️",
+      "skills": [
+        {
+          "name": "Unity",
+          "level": "Expert",
+          "yearsExperience": 8,
+          "proficiency": 95,
+          "description": "Deep expertise in Unity architecture, optimization, and multiplayer systems"
+        },
+        {
+          "name": "Unreal Engine",
+          "level": "Advanced",
+          "yearsExperience": 3,
+          "proficiency": 85,
+          "description": "C++ game development, networked gameplay, advanced systems"
+        },
+        {
+          "name": "Godot",
+          "level": "Intermediate",
+          "yearsExperience": 1,
+          "proficiency": 60,
+          "description": "Modern open-source game development"
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "name": "Programming Languages",
+      "icon": "💻",
+      "skills": [
+        {
+          "name": "C#",
+          "level": "Expert",
+          "yearsExperience": 8,
+          "proficiency": 95,
+          "description": "Primary language for game development, advanced patterns and architecture"
+        },
+        {
+          "name": "C++",
+          "level": "Advanced",
+          "yearsExperience": 5,
+          "proficiency": 85,
+          "description": "Unreal Engine, performance-critical systems, game optimization"
+        },
+        {
+          "name": "JavaScript / TypeScript",
+          "level": "Advanced",
+          "yearsExperience": 6,
+          "proficiency": 85,
+          "description": "Web games, server architecture, full-stack game development"
+        },
+        {
+          "name": "Python",
+          "level": "Intermediate",
+          "yearsExperience": 2,
+          "proficiency": 70,
+          "description": "AI utilities, automation, tool development"
+        }
+      ]
+    },
+    {
+      "id": "specialization",
+      "name": "Specializations",
+      "icon": "🎮",
+      "skills": [
+        {
+          "name": "Multiplayer Architecture",
+          "level": "Expert",
+          "yearsExperience": 6,
+          "proficiency": 95,
+          "description": "Netcode, replication, matchmaking, server architecture, authoritative servers"
+        },
+        {
+          "name": "VR/XR Development",
+          "level": "Expert",
+          "yearsExperience": 6,
+          "proficiency": 90,
+          "description": "Meta Quest, HTC Vive, PSVR, hand tracking, spatial computing"
+        },
+        {
+          "name": "Game Architecture & Optimization",
+          "level": "Expert",
+          "yearsExperience": 8,
+          "proficiency": 95,
+          "description": "DOTS, ECS patterns, performance profiling, cross-platform optimization"
+        },
+        {
+          "name": "Web Technologies & WebGL",
+          "level": "Advanced",
+          "yearsExperience": 5,
+          "proficiency": 85,
+          "description": "Phaser.js, Three.js, WebGL, HTML5 Canvas games"
+        }
+      ]
+    },
+    {
+      "id": "tools-platforms",
+      "name": "Tools & Platforms",
+      "icon": "🛠️",
+      "skills": [
+        {
+          "name": "Node.js & Socket.io",
+          "level": "Advanced",
+          "proficiency": 85,
+          "description": "Real-time multiplayer servers, game backend infrastructure"
+        },
+        {
+          "name": "AWS & Cloud Services",
+          "level": "Intermediate",
+          "proficiency": 70,
+          "description": "Game hosting, server deployment, cloud architecture"
+        },
+        {
+          "name": "Docker & DevOps",
+          "level": "Intermediate",
+          "proficiency": 70,
+          "description": "Containerization, CI/CD pipelines, server management"
+        },
+        {
+          "name": "Git & Version Control",
+          "level": "Expert",
+          "proficiency": 95,
+          "description": "Collaboration, branching strategies, maintainable codebases"
+        }
+      ]
+    },
+    {
+      "id": "soft-skills",
+      "name": "Soft Skills",
+      "icon": "🤝",
+      "skills": [
+        {
+          "name": "Team Leadership",
+          "level": "Advanced",
+          "yearsExperience": 2,
+          "proficiency": 80,
+          "description": "Led development teams at Zinad, mentoring and code standards"
+        },
+        {
+          "name": "Technical Architecture",
+          "level": "Expert",
+          "yearsExperience": 3,
+          "proficiency": 90,
+          "description": "System design, scalability planning, performance optimization"
+        },
+        {
+          "name": "Communication",
+          "level": "Advanced",
+          "proficiency": 85,
+          "description": "Clear documentation, team collaboration, client presentation"
+        },
+        {
+          "name": "Teaching & Mentoring",
+          "level": "Advanced",
+          "yearsExperience": 2,
+          "proficiency": 85,
+          "description": "Taught game development at ITI, curriculum development"
+        }
+      ]
+    }
+  ],
+  "topSkills": [
+    "Game Architecture & Systems Design",
+    "Multiplayer Networking",
+    "VR/XR Development",
+    "C# & Unity",
+    "Unreal Engine & C++",
+    "Performance Optimization",
+    "Team Leadership",
+    "Full-Stack Game Development"
+  ]
+}

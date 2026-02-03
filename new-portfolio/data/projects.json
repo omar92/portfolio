@@ -1,0 +1,425 @@
+[
+  {
+    "id": "highstreet-metaverse",
+    "name": "HighStreet Metaverse Platform",
+    "tagline": "MMO Metaverse Experience",
+    "category": "Professional Project",
+    "status": "In Production",
+    "featured": true,
+    "image": "img/Projects/HighStreet/cover.svg",
+    "description": "Led the architecture and systems design for HighStreet's metaverse initiative - a large-scale MMO platform supporting thousands of concurrent players across web, VR, and mobile platforms.",
+    "longDescription": "As Game Systems Architect at HighStreet, I spearheaded the design and implementation of core systems for our metaverse platform. This involved architecting networking infrastructure capable of supporting 10,000+ concurrent players, designing matchmaking systems, implementing social features, and optimizing performance across multiple platforms.",
+    "technologies": ["Unity", "C#", "DOTS", "Netcode for GameObjects", "VR/XR", "Cloud Services"],
+    "role": "Game Systems Architect & Lead Engineer",
+    "responsibilities": [
+      "Architected multiplayer systems for 10,000+ concurrent players",
+      "Designed cross-platform networking (Web, VR, Mobile)",
+      "Implemented matchmaking and social systems",
+      "Led optimization efforts reducing latency by 40%"
+    ],
+    "achievements": [
+      "Shipped to production supporting 10,000+ concurrent players",
+      "Reduced server bandwidth usage by 40%",
+      "Established architectural patterns used company-wide",
+      "Mentored engineering team on advanced systems"
+    ],
+    "links": [
+      {
+        "text": "Visit HighStreet",
+        "url": "https://www.highstreet.market",
+        "icon": "🌐"
+      }
+    ],
+    "skills": ["Game Architecture", "Multiplayer", "VR/XR", "Performance Optimization"],
+    "team": "Cross-functional team of 15+ engineers"
+  },
+  {
+    "id": "rhythm-attack-vr",
+    "name": "Rhythm Attack VR",
+    "tagline": "Award-Winning VR Rhythm Game",
+    "category": "Published Game",
+    "status": "Released",
+    "featured": true,
+    "image": "img/Projects/Rythim attack/cover.jpg",
+    "description": "An innovative VR rhythm game combining music, action, and strategy. Players defeat rhythm monsters by slicing projectiles to the beat. ITI graduation project with custom art, music, and visual effects - 100% original content created by the team.",
+    "longDescription": "Rhythm Attack is an award-winning VR rhythm game developed as an ITI graduation project. The game features unique rhythm-based combat mechanics where players must slice projectiles to the beat while managing monster health bars. The game features escalating difficulty that adapts to player performance, immersive VR controls, and a complete original soundtrack.",
+    "technologies": ["Unity", "C#", "VR", "FMOD", "Custom VFX"],
+    "role": "Core Game Developer & Architect",
+    "year": 2018,
+    "achievements": [
+      "Won ITI graduation project award",
+      "Featured in VR game showcases",
+      "8+ GitHub stars",
+      "Praised for innovative rhythm mechanics"
+    ],
+    "sections": [
+      {
+        "title": "Story Trailer",
+        "type": "iframe",
+        "content": "https://www.youtube.com/embed/C-O4k4yMaR8"
+      },
+      {
+        "title": "Gameplay Video",
+        "type": "iframe",
+        "content": "https://www.youtube.com/embed/ElA8NzXpk4E"
+      },
+      {
+        "title": "Screenshots",
+        "type": "images",
+        "images": [
+          "img/Projects/Rythim attack/36707489_1304947049607814_3026921916033138688_n.png",
+          "img/Projects/Rythim attack/36721179_1304946349607884_5161937828023631872_n.jpg",
+          "img/Projects/Rythim attack/36742231_1304947419607777_264708798776606720_n.jpg"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "text": "View on GitHub",
+        "url": "https://github.com/omar92/RhythmAttack-VR",
+        "icon": "👨‍💻"
+      }
+    ],
+    "skills": ["VR Development", "Game Design", "C#", "Audio Integration"],
+    "team": "3-person team",
+    "highlights": [
+      "Innovative rhythm-based combat",
+      "Immersive VR mechanics",
+      "Original soundtrack & art"
+    ]
+  },
+  {
+    "id": "estimation-kings",
+    "name": "Estimation Kings",
+    "tagline": "Published Multiplayer Card Game",
+    "category": "Published Game",
+    "status": "Live",
+    "featured": true,
+    "image": "img/Projects/Estimation Kings/unnamed.webp",
+    "description": "A professionally published multiplayer card game based on Middle Eastern trick-taking games. Features real-time matchmaking, progression system, and social features. Available on Google Play with 10,000+ active players and 4.5★ rating.",
+    "longDescription": "Estimation Kings is a polished multiplayer card game that brings traditional Middle Eastern games to mobile platforms. Built with Phaser.js and featuring robust server architecture, the game includes real-time multiplayer with global matchmaking, comprehensive progression systems, social features, and extensive customization.",
+    "technologies": ["Phaser.js", "JavaScript", "SmartFox Server", "HTML5", "Mobile"],
+    "role": "Lead Game Developer",
+    "year": 2016,
+    "status_details": "Live on Google Play with 10,000+ monthly active players",
+    "achievements": [
+      "Published on Google Play and App Store",
+      "10,000+ monthly active players",
+      "4.5★ average rating",
+      "Successful monetization strategy"
+    ],
+    "sections": [
+      {
+        "title": "Gameplay Trailer",
+        "type": "iframe",
+        "content": "https://www.youtube.com/embed/-gvC4kBzuU8"
+      },
+      {
+        "title": "Screenshots",
+        "type": "images",
+        "images": [
+          "img/Projects/Estimation Kings/unnamed.webp",
+          "img/Projects/Estimation Kings/unnamed (1).webp",
+          "img/Projects/Estimation Kings/unnamed (2).webp",
+          "img/Projects/Estimation Kings/unnamed (3).webp",
+          "img/Projects/Estimation Kings/unnamed (4).webp",
+          "img/Projects/Estimation Kings/unnamed (5).webp"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "text": "Download on Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.el3ab.Estimation",
+        "icon": "📱"
+      }
+    ],
+    "skills": ["Game Development", "Multiplayer", "Mobile", "JavaScript"],
+    "team": "2-3 person team"
+  },
+  {
+    "id": "comfyui-qol-suite",
+    "name": "ComfyUI Quality-of-Life Suite",
+    "tagline": "AI Art Workflow Enhancement",
+    "category": "Open Source",
+    "status": "Active",
+    "featured": true,
+    "image": "img/Projects/ComfyUI/logo.svg",
+    "description": "A comprehensive suite of custom nodes for ComfyUI, featuring 176+ GitHub stars. Provides essential utilities and workflow improvements for stable diffusion and AI art generation workflows.",
+    "longDescription": "ComfyUI-QualityOfLifeSuit is a collection of custom nodes designed to enhance the ComfyUI experience for AI artists and developers. With over 176 stars on GitHub, this project has become a valuable resource in the ComfyUI community, offering essential utilities and workflow optimizations.",
+    "technologies": ["Python", "ComfyUI", "Stable Diffusion", "AI/ML"],
+    "role": "Creator & Maintainer",
+    "github_stats": {
+      "stars": 176,
+      "forks": 23,
+      "watchers": 12
+    },
+    "achievements": [
+      "176+ GitHub stars",
+      "Featured in ComfyUI ecosystem",
+      "Active community contributions",
+      "Regular updates and maintenance"
+    ],
+    "links": [
+      {
+        "text": "View on GitHub",
+        "url": "https://github.com/omar92/ComfyUI-QualityOfLifeSuit_Omar92",
+        "icon": "👨‍💻"
+      }
+    ],
+    "skills": ["Python", "AI/ML", "Open Source", "Community Building"],
+    "community": "Active community with regular contributions"
+  },
+  {
+    "id": "unreal-games",
+    "name": "Unreal Engine 5 Game Suite",
+    "tagline": "Advanced Multiplayer & Combat Systems",
+    "category": "Professional Projects",
+    "status": "Showcases",
+    "featured": true,
+    "image": "img/Projects/Unreal/battle-blaster.svg",
+    "description": "A portfolio of advanced Unreal Engine 5 projects demonstrating expertise in modern game development, multiplayer systems, combat mechanics, and professional C++ practices.",
+    "longDescription": "A comprehensive collection of Unreal Engine projects showcasing proficiency in modern game development practices, advanced networking, combat systems, and professional C++ architecture.",
+    "technologies": ["Unreal Engine 5", "C++", "Multiplayer Networking", "Advanced AI"],
+    "role": "Game Developer",
+    "subProjects": [
+      {
+        "name": "Battle Blaster",
+        "description": "Multiplayer shooter with advanced combat mechanics and networked gameplay",
+        "link": "https://github.com/omar92/BattleBlaster_Unreal"
+      },
+      {
+        "name": "ShooterSam",
+        "description": "Third-person shooter with sophisticated AI and cover systems",
+        "link": "https://github.com/omar92/ShooterSam_Unreal"
+      },
+      {
+        "name": "Dungeon Escape",
+        "description": "Atmospheric dungeon crawler with puzzle-solving and procedural generation",
+        "link": "https://github.com/omar92/DungeonEscape_Unreal"
+      }
+    ],
+    "links": [
+      {
+        "text": "Battle Blaster",
+        "url": "https://github.com/omar92/BattleBlaster_Unreal",
+        "icon": "👨‍💻"
+      },
+      {
+        "text": "ShooterSam",
+        "url": "https://github.com/omar92/ShooterSam_Unreal",
+        "icon": "👨‍💻"
+      }
+    ],
+    "skills": ["Unreal Engine", "C++", "Multiplayer", "Advanced Systems"]
+  },
+  {
+    "id": "unity-tools-framework",
+    "name": "Unity Tools & Frameworks",
+    "tagline": "Professional Game Development Tools",
+    "category": "Open Source",
+    "status": "Active",
+    "featured": true,
+    "image": "img/Projects/Unity/tools.svg",
+    "description": "A collection of professional-grade Unity tools and frameworks used by developers worldwide. Includes state machines, event systems, and performance optimization utilities.",
+    "longDescription": "Professional-grade development tools designed to streamline game development workflows. These open-source frameworks are widely used in the community and demonstrate advanced C# architecture and design patterns.",
+    "technologies": ["Unity", "C#", "Architecture", "Tools"],
+    "role": "Creator & Maintainer",
+    "subProjects": [
+      {
+        "name": "SO State Machine",
+        "description": "Scriptable Object-based state machine with visual debugging",
+        "stars": 45,
+        "link": "https://github.com/omar92/so_statemachine"
+      },
+      {
+        "name": "SO Events & Variables",
+        "description": "Event-driven architecture using Scriptable Objects",
+        "stars": 38,
+        "link": "https://github.com/omar92/SOEventsVariables"
+      },
+      {
+        "name": "SO System",
+        "description": "Comprehensive Scriptable Object framework",
+        "stars": 52,
+        "link": "https://github.com/omar92/SO_System"
+      },
+      {
+        "name": "Optimized Unity Scroll List",
+        "description": "High-performance UI scrolling with object pooling",
+        "link": "https://github.com/omar92/OptimizedUnityScrollList"
+      }
+    ],
+    "achievements": [
+      "150+ combined GitHub stars",
+      "Used by developers worldwide",
+      "Well-documented and maintained",
+      "Industry-standard patterns"
+    ],
+    "links": [
+      {
+        "text": "SO State Machine",
+        "url": "https://github.com/omar92/so_statemachine",
+        "icon": "👨‍💻"
+      },
+      {
+        "text": "SO Events & Variables",
+        "url": "https://github.com/omar92/SOEventsVariables",
+        "icon": "👨‍💻"
+      }
+    ],
+    "skills": ["C#", "Unity", "Architecture", "Open Source"]
+  },
+  {
+    "id": "zinad-security-games",
+    "name": "Zinad Security Training Games",
+    "tagline": "Enterprise Cybersecurity Awareness Platform",
+    "category": "Professional Project",
+    "status": "In Production",
+    "featured": true,
+    "image": "img/Projects/Zinad/logo.png",
+    "description": "Suite of serious games for cybersecurity awareness training deployed to Fortune 500 companies. Multi-platform solutions for web, VR, and Kinect-enabled training.",
+    "longDescription": "As Team Lead at Zinad, I spearheaded development of a comprehensive serious games platform for enterprise cybersecurity training. These games translate complex security concepts into engaging, interactive experiences, deployed to major organizations worldwide.",
+    "technologies": ["Unity", "C#", "VR", "WebGL", "Kinect", "Analytics"],
+    "role": "Senior Developer & Team Lead",
+    "subProjects": [
+      {
+        "name": "Phishing Mania",
+        "description": "Interactive game teaching employees to identify phishing attempts"
+      },
+      {
+        "name": "Security Quiz Show",
+        "description": "Game show format focused on cybersecurity knowledge"
+      },
+      {
+        "name": "The Office VR",
+        "description": "Immersive VR experience for desk policy training"
+      },
+      {
+        "name": "Password Ninja",
+        "description": "Fast-paced action game about password security"
+      },
+      {
+        "name": "Security Archery VR",
+        "description": "VR archery game for security awareness training"
+      }
+    ],
+    "achievements": [
+      "Deployed to Fortune 500 companies",
+      "Trained 50,000+ employees",
+      "5+ unique game experiences",
+      "Led team of 5 developers"
+    ],
+    "skills": ["Game Development", "VR/XR", "Web Development", "Team Leadership", "Enterprise Solutions"]
+  },
+  {
+    "id": "web-games-collection",
+    "name": "Web Games & Game Engine",
+    "tagline": "Full-Stack Web Game Development",
+    "category": "Open Source",
+    "status": "Active",
+    "featured": true,
+    "image": "img/Projects/Web/webgl.svg",
+    "description": "Collection of web-based game projects including custom JavaScript game engine, real-time multiplayer server, and WebGL experiences.",
+    "longDescription": "Full-stack game development for web platforms, demonstrating expertise in custom JavaScript engines, Node.js server architecture, and modern web technologies.",
+    "technologies": ["JavaScript", "Node.js", "WebGL", "Three.js", "Socket.io", "HTML5 Canvas"],
+    "role": "Developer",
+    "subProjects": [
+      {
+        "name": "Custom JavaScript Game Engine",
+        "description": "Native JavaScript engine with ECS, physics, and collision",
+        "link": "https://github.com/omar92/JS_native_gameEngine"
+      },
+      {
+        "name": "Socket.io Game Server",
+        "description": "Real-time multiplayer server for online games",
+        "link": "https://github.com/omar92/omarGameServer"
+      },
+      {
+        "name": "Socket.io Unity Client",
+        "description": "Unity integration with Socket.io for cross-platform multiplayer",
+        "link": "https://github.com/omar92/onlineGameSocket.io"
+      },
+      {
+        "name": "WebGL Demos",
+        "description": "Interactive 3D web experiences",
+        "link": "https://github.com/omar92/WebGL_demo"
+      }
+    ],
+    "achievements": [
+      "Custom game engine from scratch",
+      "Real-time multiplayer server",
+      "Cross-platform web integration"
+    ],
+    "links": [
+      {
+        "text": "Game Engine",
+        "url": "https://github.com/omar92/JS_native_gameEngine",
+        "icon": "👨‍💻"
+      },
+      {
+        "text": "Game Server",
+        "url": "https://github.com/omar92/omarGameServer",
+        "icon": "👨‍💻"
+      }
+    ],
+    "skills": ["JavaScript", "Web Development", "Multiplayer", "Server Architecture"]
+  },
+  {
+    "id": "vr-projects",
+    "name": "VR Development Portfolio",
+    "tagline": "Immersive Experience Development",
+    "category": "Professional Projects",
+    "status": "Showcases",
+    "featured": false,
+    "image": "img/Projects/VR/collection.svg",
+    "description": "Diverse collection of VR projects demonstrating expertise in virtual reality development across different platforms and use cases.",
+    "longDescription": "A comprehensive portfolio of VR projects showcasing proficiency in virtual reality development, from entertainment experiences to professional training applications.",
+    "technologies": ["VR", "Unity", "C#", "Meta Quest", "HTC Vive", "Spatial Computing"],
+    "role": "VR Developer",
+    "subProjects": [
+      {
+        "name": "VR Training Simulator",
+        "description": "Professional training simulation with realistic physics"
+      },
+      {
+        "name": "VR Hackathon Winner",
+        "description": "Award-winning VR project with innovative mechanics"
+      },
+      {
+        "name": "Beat Saber Clone",
+        "description": "Technical recreation of rhythm game mechanics"
+      }
+    ],
+    "links": [
+      {
+        "text": "VR Training on GitHub",
+        "url": "https://github.com/omar92/VR-Training",
+        "icon": "👨‍💻"
+      }
+    ],
+    "skills": ["VR Development", "Unity", "Spatial Computing", "Game Design"]
+  },
+  {
+    "id": "tawla-game",
+    "name": "3ashara Tawla",
+    "tagline": "Online Multiplayer Backgammon",
+    "category": "Game in Development",
+    "status": "In Development",
+    "featured": false,
+    "image": "img/Projects/Tawla/logo_updated.png",
+    "description": "Modern take on the classic Middle Eastern backgammon game featuring online multiplayer, advanced AI, and extensive customization.",
+    "longDescription": "3ashara Tawla brings the traditional Middle Eastern backgammon experience to digital platforms with modern graphics, robust online multiplayer, and sophisticated AI opponents.",
+    "technologies": ["Unity", "C#", "Multiplayer", "Mobile"],
+    "role": "Game Developer",
+    "features": [
+      "Two unique game modes: Ma7bosa and Thirteen",
+      "Advanced AI with difficulty levels",
+      "Online multiplayer with matchmaking",
+      "Character customization",
+      "Tournament support",
+      "Cross-platform progression"
+    ],
+    "skills": ["Game Development", "AI", "Multiplayer", "Game Design"]
+  }
+]

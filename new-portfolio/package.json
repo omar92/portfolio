@@ -1,0 +1,25 @@
+{
+  "name": "omar-portfolio",
+  "version": "2.0.0",
+  "description": "Modern portfolio for Omar Abdelzaher - Game Systems Architect",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "game-developer",
+    "game-architecture",
+    "multiplayer",
+    "vr-xr",
+    "unity",
+    "unreal"
+  ],
+  "author": "Omar Abdelzaher",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omar92/portfolio"
+  }
+}

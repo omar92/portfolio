@@ -1,0 +1,151 @@
+[
+  {
+    "id": "highstreet-architect",
+    "company": "HighStreet Market",
+    "url": "https://www.highstreet.market",
+    "logo": "img/logos/placeholder.svg",
+    "position": "Game Systems Architect",
+    "employment_type": "Full-time",
+    "startDate": "Jan 2024",
+    "endDate": "Present",
+    "duration": "1+ years",
+    "description": "Leading the architecture team for HighStreet's metaverse initiative, designing large-scale multiplayer systems.",
+    "responsibilities": [
+      "Led the architecture team for the forthcoming metaverse initiative, establishing technical foundations for MMO-scale experiences",
+      "Designed and implemented Unity DOTS-focused systems optimized for large-scale multiplayer environments with thousands of concurrent players",
+      "Built scalable networking and backend systems leveraging authoritative server architecture for MMO-level gameplay",
+      "Owned cross-platform integration strategy for web, VR, and mobile targets with unified codebase approach",
+      "Mentored engineering team on performance optimization and architecture best practices",
+      "Implemented matchmaking, lobby, and live service systems for millions of potential players"
+    ],
+    "skills": ["Game Architecture", "Unity", "DOTS", "C#", "Multiplayer Systems", "Netcode", "VR/XR", "Performance Optimization", "Team Leadership"],
+    "achievements": [
+      "Architected systems supporting 10,000+ concurrent players",
+      "Reduced server load by 40% through optimized networking",
+      "Established architectural patterns adopted company-wide"
+    ]
+  },
+  {
+    "id": "highstreet-senior",
+    "company": "HighStreet Market",
+    "url": "https://www.highstreet.market",
+    "logo": "img/logos/placeholder.svg",
+    "position": "Senior Game Developer",
+    "employment_type": "Full-time",
+    "startDate": "Jan 2022",
+    "endDate": "Dec 2023",
+    "duration": "2 years",
+    "description": "Built cross-platform web and VR experiences for a multiverse MMO platform.",
+    "responsibilities": [
+      "Built cross-platform web and VR experiences for a multiverse MMO, handling 100,000+ monthly active users",
+      "Implemented matchmaking system supporting real-time player connection and ranked progression",
+      "Developed lobby and social systems enabling real-time communication and friend management",
+      "Integrated blockchain/NFT data systems with gameplay mechanics",
+      "Optimized networking for both web browser and VR platforms"
+    ],
+    "skills": ["Unity", "C#", "Netcode", "WebGL", "VR", "NFT Integration", "Multiplayer", "Backend Integration"],
+    "achievements": [
+      "Shipped features used by 100K+ monthly active players",
+      "Implemented system reducing network bandwidth by 35%",
+      "Successfully integrated blockchain systems into gameplay"
+    ]
+  },
+  {
+    "id": "zinad-lead",
+    "company": "Zinad IT Solutions",
+    "url": "https://zinad.net/",
+    "logo": "img/ZINAD-IT-logo.png",
+    "position": "Senior Game Developer & Team Lead",
+    "employment_type": "Full-time",
+    "startDate": "Feb 2020",
+    "endDate": "Dec 2021",
+    "duration": "2 years",
+    "description": "Led game development team creating serious games for enterprise cybersecurity awareness training.",
+    "responsibilities": [
+      "Led a team of 4-5 developers in creating serious games for cybersecurity awareness training deployed to Fortune 500 companies",
+      "Architected multi-platform game solutions (Web, VR, Kinect) using Unity for simultaneous deployment",
+      "Established development standards, code review processes, and best practices improving team productivity by 30%",
+      "Mentored junior developers and conducted technical training sessions",
+      "Delivered 10+ enterprise training products customized for different client organizations",
+      "Implemented analytics systems tracking learning outcomes and engagement metrics"
+    ],
+    "skills": ["C#", "Unity", "JavaScript", "VR", "WebGL", "Kinect", "Team Leadership", "Enterprise Development", "Game Design"],
+    "achievements": [
+      "Led team delivering to Fortune 500 companies",
+      "Created 5 enterprise training games",
+      "Improved team productivity by 30% through process improvements",
+      "Trained 50,000+ employees through games"
+    ]
+  },
+  {
+    "id": "iti-supervisor",
+    "company": "Information Technology Institute (ITI)",
+    "url": "https://www.iti.gov.eg/",
+    "logo": "img/ITI-logo.jpg",
+    "position": "Game Track Supervisor & Teaching Assistant",
+    "employment_type": "Full-time",
+    "startDate": "Aug 2018",
+    "endDate": "Feb 2020",
+    "duration": "1.5 years",
+    "description": "Supervised game development track and taught advanced game development concepts.",
+    "responsibilities": [
+      "Taught C/C++, design patterns, Unity3D, HTML5 game development to 200+ students across multiple cohorts",
+      "Developed and updated curriculum to include latest industry technologies and best practices",
+      "Guided 50+ students through graduation projects and production workflows",
+      "Conducted workshops on performance optimization and game architecture",
+      "Evaluated student progress and provided technical mentorship"
+    ],
+    "skills": ["Teaching", "C/C++", "C#", "Unity", "JavaScript", "HTML5", "Design Patterns", "Curriculum Development"],
+    "achievements": [
+      "Taught 200+ students in game development",
+      "Mentored 50+ graduation projects",
+      "Updated curriculum for modern game engines",
+      "100% student employment rate post-graduation"
+    ]
+  },
+  {
+    "id": "a15-developer",
+    "company": "A15 / El3ab.com",
+    "url": "http://a15.com/",
+    "subUrl": "https://play.google.com/store/apps/details?id=com.el3ab.Estimation",
+    "logo": "img/a15-logo.gif",
+    "position": "Game Developer",
+    "employment_type": "Full-time",
+    "startDate": "May 2015",
+    "endDate": "Oct 2017",
+    "duration": "2.5 years",
+    "description": "Rebuilt legacy Flash games for modern platforms and published multiplayer games.",
+    "responsibilities": [
+      "Rebuilt 15+ legacy Flash games for Web, Android, and iOS using Unity and Phaser.js",
+      "Developed server-side logic for multiplayer card and board games using SmartFox Server",
+      "Published Estimation Kings on iOS and Android, acquiring 10,000+ active players",
+      "Implemented matchmaking, lobby, and progression systems",
+      "Optimized games for mobile devices with limited resources"
+    ],
+    "skills": ["C#", "Unity", "JavaScript", "Phaser.js", "HTML5", "Java", "Mobile Development", "Server Architecture"],
+    "achievements": [
+      "Shipped Estimation Kings with 10K+ active players",
+      "Rebuilt 15+ games for modern platforms",
+      "Implemented multiplayer for web and mobile",
+      "Achieved 4.5★ rating on Google Play"
+    ]
+  },
+  {
+    "id": "skytech-developer",
+    "company": "SkyTech",
+    "url": "",
+    "logo": "img/logos/placeholder.svg",
+    "position": "Web Solution Developer",
+    "employment_type": "Full-time",
+    "startDate": "Jan 2014",
+    "endDate": "Jan 2015",
+    "duration": "1 year",
+    "description": "Developed web-based solutions and interactive applications.",
+    "responsibilities": [
+      "Developed web-based solutions and interactive applications for diverse clients",
+      "Built responsive websites and web applications using modern technologies",
+      "Collaborated with design and product teams to deliver high-quality solutions"
+    ],
+    "skills": ["JavaScript", "HTML5", "CSS3", "Web Development", "PHP"]
+  }
+]

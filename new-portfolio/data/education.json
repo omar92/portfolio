@@ -1,0 +1,29 @@
+[
+  {
+    "id": "iti-diploma",
+    "school": "Information Technology Institute (ITI)",
+    "degree": "Professional Diploma in Game Development",
+    "startYear": 2017,
+    "endYear": 2018,
+    "description": "9-month intensive game development program with focus on game programming and VR development",
+    "achievements": [
+      "Graduation Project: Rhythm Attack VR (Award-winning)"
+    ],
+    "focus": ["Game Programming", "VR Development", "C/C++", "Unity3D", "Design Patterns"],
+    "gpa": "Excellent"
+  },
+  {
+    "id": "computer-engineer",
+    "school": "Faculty of Engineering",
+    "degree": "Bachelor of Computer Engineering",
+    "startYear": 2008,
+    "endYear": 2013,
+    "description": "4-year engineering degree with focus on software engineering and computer graphics",
+    "achievements": [
+      "Grade: Very Good",
+      "Focus on Software Engineering and Computer Science"
+    ],
+    "focus": ["Software Engineering", "Computer Graphics", "Artificial Intelligence", "Data Structures", "Algorithms"],
+    "gpa": "Very Good"
+  }
+]

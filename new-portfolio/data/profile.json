@@ -1,0 +1,51 @@
+{
+  "personal": {
+    "fullName": "Omar Abdelzaher",
+    "title": "Game Systems Architect & Senior Game Developer",
+    "tagline": "Crafting immersive experiences across Unity, Unreal, and Web platforms",
+    "bio": "Passionate game developer with 8+ years of experience building engaging games and interactive experiences. Specialized in multiplayer systems, VR/XR development, and game architecture. Currently architecting large-scale metaverse experiences at HighStreet.",
+    "shortBio": "Full-stack game developer | Game Systems Architect | VR/XR Specialist | Open Source Contributor",
+    "profileImage": "img/me-big.jpg",
+    "backgroundImage": "img/carousel/1.png",
+    "headline": "Leading the Future of Interactive Entertainment",
+    "subheadline": "Game Systems Architect specializing in multiplayer, VR, and large-scale architecture"
+  },
+  "contact": {
+    "email": "omarabdelzaher@gmail.com",
+    "location": "Remote / Global",
+    "phone": "Available upon request",
+    "timezone": "GMT+2 (EGT)",
+    "languages": ["English", "Arabic", "Spanish (basic)"]
+  },
+  "social": {
+    "github": {
+      "username": "omar92",
+      "url": "https://github.com/omar92",
+      "stats": {
+        "repositories": 47,
+        "stars": 176,
+        "followers": 0
+      }
+    },
+    "linkedin": {
+      "username": "omarsleam",
+      "url": "https://www.linkedin.com/in/omarsleam/",
+      "headline": "Game Systems Architect at HighStreet Market"
+    },
+    "twitter": {
+      "username": "oomar92",
+      "url": "https://twitter.com/oomar92"
+    },
+    "itch": {
+      "username": "omar92",
+      "url": "https://omar92.itch.io"
+    }
+  },
+  "highlights": {
+    "yearsExperience": 8,
+    "projectsCompleted": 25,
+    "gitHubStars": 176,
+    "companiesWorked": 6,
+    "gamesPublished": 2
+  }
+}
