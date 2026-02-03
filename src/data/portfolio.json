@@ -1,33 +1,40 @@
 {
   "personal": {
-    "name": "Omar Sleam",
-    "title": "Technical Game Architect",
-    "subtitle": "Creative Developer",
+    "name": "Omar AbdElzaher",
+    "title": "Senior Gameplay Engineer",
+    "subtitle": "Game Systems Architect",
     "email": "omarabdelzaher@gmail.com",
-    "location": "Egypt",
+    "phone": "+20 100 814 6211",
+    "location": "Canada",
     "github": "https://github.com/omar92",
-    "linkedin": "https://www.linkedin.com/in/omarsleam/",
+    "linkedin": "https://www.linkedin.com/in/omarsleam",
     "twitter": "https://twitter.com/oomar92",
-    "resume": "#",
-    "tagline": "Passionate game developer crafting immersive experiences with Unity, Unreal Engine, and cutting-edge technology. Specializing in VR, multiplayer games, and innovative gameplay mechanics.",
-    "about": "I'm a Technical Game Architect with over 8 years of experience building immersive gaming experiences. From VR adventures to multiplayer card games, I blend technical expertise with creative vision. I'm passionate about making games and interested in trying and learning new technologies. My experience spans across Unity, Unreal Engine, VR development, multiplayer systems, and serious games. I've worked on projects ranging from mobile card games to VR experiences and security training applications.",
+    "youtube": "https://www.youtube.com/@omar92",
+    "resume": "https://github.com/omar92",
+    "tagline": "Building worlds. Shipping systems.",
+    "about": "Highly proficient Game Developer with over a decade of professional experience, specializing in Unity, multiplayer, and cross-platform game development, including VR/XR technologies. Expert in Unity DOTS, advanced game architecture design, and complex problem-solving.",
     "avatar": "https://avatars.githubusercontent.com/u/1458624?v=4"
   },
   "stats": [
     {
-      "value": 8,
+      "value": 10,
       "suffix": "+",
       "label": "Years Experience"
     },
     {
-      "value": 50,
-      "suffix": "+",
-      "label": "Projects Completed"
+      "value": 47,
+      "suffix": "",
+      "label": "Public Repos"
     },
     {
-      "value": 176,
-      "suffix": "",
+      "value": 200,
+      "suffix": "+",
       "label": "GitHub Stars"
+    },
+    {
+      "value": 30,
+      "suffix": "+",
+      "label": "Total Forks"
     }
   ],
   "skills": [
@@ -36,79 +43,145 @@
       "items": ["Unity", "Unreal Engine", "Phaser.js", "HTML5"]
     },
     {
-      "category": "Programming",
-      "items": ["C#", "C/C++", "JavaScript", "Java", "Python"]
+      "category": "Languages",
+      "items": ["C#", "C++", "Python", "JavaScript/TypeScript"]
     },
     {
-      "category": "Technologies",
-      "items": ["VR/AR", "Multiplayer Systems", "DOTS", "SmartFox Server"]
+      "category": "Systems & AI",
+      "items": ["Gameplay Systems", "AI Programming", "UI/UX Implementation", "Animation Systems"]
     },
     {
-      "category": "AI & Tools",
-      "items": ["ComfyUI", "Stable Diffusion", "Node Graph Systems"]
+      "category": "Networking",
+      "items": ["Socket.io", "Unity Netcode", "Multiplayer Architecture", "Matchmaking Systems"]
+    },
+    {
+      "category": "Tools & Workflow",
+      "items": ["Git / Version Control", "CI/CD", "ShaderGraph / VFX", "Blender (Basics)"]
+    },
+    {
+      "category": "Specializations",
+      "items": ["ScriptableObject Architecture", "State Machines", "Event Systems", "Performance Optimization"]
     }
   ],
   "experience": [
     {
-      "id": "zinad",
-      "company": "Zinad",
-      "url": "https://zinad.net/",
-      "position": "Senior Game Programmer",
-      "startDate": "Feb 2020",
+      "id": "highstreet-architect",
+      "company": "HighStreet Market",
+      "url": "https://www.highstreet.market",
+      "position": "Game Systems Architect",
+      "startDate": "2024",
       "endDate": "Present",
       "description": [
-        "Acting as Development Team Lead",
-        "Developing serious games regarding security awareness",
-        "Working on Web, Kinect and VR games"
+        "Led the architecture team for the forthcoming metaverse initiative",
+        "Designed Unity DOTS-focused systems optimized for large-scale multiplayer",
+        "Built scalable networking and backend systems for MMO-level experiences",
+        "Owned cross-platform integration for web and VR targets"
       ],
-      "skills": ["C#", "Unity", "JavaScript", "VR", "Kinect"]
+      "skills": ["Unity", "DOTS", "C#", "Multiplayer", "VR/XR", "Architecture"]
+    },
+    {
+      "id": "highstreet-senior",
+      "company": "HighStreet Market",
+      "url": "https://www.highstreet.market",
+      "position": "Senior Game Developer",
+      "startDate": "2022",
+      "endDate": "2024",
+      "description": [
+        "Built cross-platform web and VR experiences for a multiverse MMO",
+        "Implemented matchmaking, lobby, and real-time networking systems",
+        "Developed systems to handle NFT data integration"
+      ],
+      "skills": ["Unity", "C#", "Netcode", "Web", "VR", "Backend"]
+    },
+    {
+      "id": "zinad",
+      "company": "Zinad IT Solutions",
+      "url": "https://zinad.net/",
+      "position": "Senior Game Developer & Team Lead",
+      "startDate": "Feb 2020",
+      "endDate": "2022",
+      "description": [
+        "Led development team for serious games in cybersecurity awareness",
+        "Architected multi-platform Unity solutions (Web, VR, Kinect)",
+        "Mentored junior developers and established coding standards",
+        "Delivered enterprise training products for major clients"
+      ],
+      "skills": ["C#", "Unity", "JavaScript", "VR", "WebGL", "Kinect", "Leadership"]
     },
     {
       "id": "iti",
-      "company": "ITI (Information Technology Institute)",
+      "company": "Information Technology Institute (ITI)",
       "url": "https://www.iti.gov.eg/iti/home",
-      "position": "Teaching Assistant",
+      "position": "Game Track Supervisor / Teaching Assistant",
       "startDate": "Aug 2018",
       "endDate": "Feb 2020",
       "description": [
-        "Responsible for teaching multiple subjects as: C/C++, HTML5 game development, design patterns, Unity3D game engine, Games Optimization, version control, etc."
+        "Taught C/C++, design patterns, Unity3D, HTML5 game dev, and optimization",
+        "Developed and updated curriculum to include latest industry tech",
+        "Guided students through graduation projects and production workflows"
       ],
-      "skills": ["C/C++", "C#", "Unity", "JavaScript", "HTML5", "Design Patterns"]
+      "skills": ["C/C++", "C#", "Unity", "JavaScript", "HTML5", "Design Patterns", "Teaching"]
     },
     {
       "id": "a15",
-      "company": "A15",
+      "company": "A15 / El3ab.com",
       "url": "http://a15.com/en-us/",
-      "position": "Game Programmer",
+      "position": "Game Developer",
       "startDate": "May 2015",
       "endDate": "Oct 2017",
       "description": [
-        "Responsible for rebuilding el3ab.com flash games to (web, android, iOS) Platforms using Unity3D and Phaser.js",
-        "Developing server-side of multiplayer card and board games using JAVA and Smart Fox Server"
+        "Rebuilt legacy Flash games for Web, Android, and iOS using Unity and Phaser.js",
+        "Developed server-side logic for multiplayer card and board games",
+        "Featured project: Estimation Kings (published on iOS & Android)"
       ],
-      "skills": ["C#", "Unity", "JavaScript", "HTML5", "Java", "SmartFox"]
+      "skills": ["C#", "Unity", "JavaScript", "Phaser.js", "HTML5", "Java", "SmartFox Server"]
+    },
+    {
+      "id": "skytech",
+      "company": "SkyTech",
+      "url": "",
+      "position": "Web Solution Developer",
+      "startDate": "2014",
+      "endDate": "2015",
+      "description": [
+        "Developed SkyPM preventive maintenance software",
+        "Built web-based workflows for enterprise operations"
+      ],
+      "skills": ["JavaScript", "HTML5", "CSS", "Web Apps"]
+    },
+    {
+      "id": "army",
+      "company": "Egyptian Army",
+      "url": "",
+      "position": "Web Solution Developer",
+      "startDate": "2014",
+      "endDate": "2015",
+      "description": [
+        "Developed internal web portals and content systems"
+      ],
+      "skills": ["JavaScript", "HTML5", "CSS", "Web Apps"]
     }
   ],
   "education": [
     {
       "id": "iti-diploma",
       "school": "Information Technology Institute (ITI)",
-      "degree": "9-Month Diploma",
+      "degree": "Professional Diploma in Game Development",
       "field": "Game Development",
       "startYear": 2017,
       "endYear": 2018,
-      "project": "Rhythm Attack",
-      "details": "Intensive game development program covering Unity, Unreal Engine, VR development, and game design principles."
+      "project": "Rhythm Attack VR",
+      "details": "9-month intensive game development program with focus on game programming, VR development, Unity3D, design patterns, and game optimization."
     },
     {
       "id": "computer-engineer",
       "school": "Misr Higher Institute for Engineering and Technology",
-      "degree": "Bachelor's Degree",
+      "degree": "Bachelor of Computer Engineering",
       "field": "Computer Engineering",
       "startYear": 2008,
       "endYear": 2013,
       "grade": "Very Good",
-      "details": "Comprehensive computer engineering education with focus on software development and systems architecture."
+      "details": "Focus areas: software engineering, computer graphics, artificial intelligence, and systems architecture."
     }
   ],
   "projects": [
@@ -119,8 +192,8 @@
       "image": "https://opengraph.githubassets.com/1/omar92/ComfyUI-QualityOfLifeSuit_Omar92",
       "tags": ["Python", "AI", "ComfyUI", "Open Source"],
       "filterTags": ["AI", "Open Source", "Python"],
-      "shortDescription": "Popular ComfyUI extension with 144+ GitHub stars providing quality of life improvements for AI image generation workflows.",
-      "description": "A comprehensive suite of custom nodes for ComfyUI that enhances the AI image generation workflow. Features include ChatGPT integration, prompt enhancement, and various utility nodes. This extension has gained significant traction in the AI art community with over 144 stars on GitHub.",
+      "shortDescription": "Popular ComfyUI extension with 176+ GitHub stars providing quality of life improvements for AI image generation workflows.",
+      "description": "A comprehensive suite of custom nodes for ComfyUI that enhances the AI image generation workflow. Features include prompt enhancement, workflow utilities, and community-driven improvements.",
       "links": [
         {
           "text": "View on GitHub",
@@ -129,15 +202,178 @@
         }
       ],
       "features": [
-        "ChatGPT integration for prompt generation",
         "Custom nodes for workflow optimization",
-        "OpenAI API support",
-        "Community-driven improvements"
+        "Quality-of-life improvements for AI pipelines",
+        "Community-driven feature additions",
+        "Active open-source maintenance"
       ],
       "stats": {
-        "stars": 144,
-        "forks": 20
+        "stars": 176,
+        "forks": 23
       }
+    },
+    {
+      "id": "highstreet-metaverse",
+      "name": "HighStreet Metaverse",
+      "category": "Metaverse / MMO",
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&q=80",
+      "tags": ["Unity", "DOTS", "Multiplayer", "VR/XR", "Web"],
+      "filterTags": ["Unity", "VR", "Web"],
+      "shortDescription": "MMO metaverse platform with cross-platform web and VR support. Led architecture and systems design for large-scale multiplayer.",
+      "description": "Led the architecture team for HighStreet's metaverse initiative. Designed and implemented networking infrastructure, matchmaking, and backend systems to support MMO-scale experiences. Built Unity DOTS-focused systems optimized for performance and cross-platform delivery.",
+      "links": [
+        {
+          "text": "Visit HighStreet",
+          "url": "https://www.highstreet.market",
+          "type": "website"
+        }
+      ],
+      "features": [
+        "MMO-scale multiplayer architecture",
+        "Cross-platform web and VR support",
+        "Matchmaking and lobby systems",
+        "Unity DOTS optimization",
+        "Backend integration for live services"
+      ]
+    },
+    {
+      "id": "omar-game-server",
+      "name": "Omar Game Server",
+      "category": "Multiplayer Backend",
+      "image": "https://opengraph.githubassets.com/1/omar92/omarGameServer",
+      "tags": ["Node.js", "Socket.io", "Multiplayer", "Backend"],
+      "filterTags": ["Web", "Open Source"],
+      "shortDescription": "Socket.io-based real-time multiplayer game server with room management and user handling.",
+      "description": "A scalable game server built with Node.js and Socket.io, supporting real-time multiplayer games with room management, user handling, and seamless client-server communication.",
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "https://github.com/omar92/omarGameServer",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "Room-based multiplayer architecture",
+        "User management and authentication",
+        "Real-time bidirectional communication",
+        "Scalable server design"
+      ]
+    },
+    {
+      "id": "online-game-socket",
+      "name": "Online Game Socket.io",
+      "category": "Multiplayer Framework",
+      "image": "https://opengraph.githubassets.com/1/omar92/onlineGameSocket.io",
+      "tags": ["Unity", "C#", "Socket.io", "Node.js"],
+      "filterTags": ["Web", "Open Source"],
+      "shortDescription": "Real-time multiplayer game framework with Unity client integration and authoritative server architecture.",
+      "description": "A complete multiplayer framework featuring Unity client integration with Socket.io server. Includes examples of real-time synchronization, player interpolation, and authoritative server design.",
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "https://github.com/omar92/onlineGameSocket.io",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "Unity client + Socket.io server integration",
+        "Real-time player synchronization",
+        "Authoritative server architecture",
+        "Sample implementations for rapid prototyping"
+      ]
+    },
+    {
+      "id": "unity-development-tools",
+      "name": "Unity Development Tools",
+      "category": "Unity Tooling",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
+      "tags": ["Unity", "C#", "Tools", "Open Source"],
+      "filterTags": ["Unity", "Open Source"],
+      "shortDescription": "Professional Unity tools and frameworks including state machines, ScriptableObject systems, and UI optimization utilities.",
+      "description": "A collection of Unity development tools designed to streamline game workflows. Includes ScriptableObject architecture, state machines, events/variables, and performance-focused UI utilities.",
+      "links": [
+        {
+          "text": "SO State Machine",
+          "url": "https://github.com/omar92/so_statemachine",
+          "type": "github"
+        },
+        {
+          "text": "SO Events & Variables",
+          "url": "https://github.com/omar92/SOEventsVariables",
+          "type": "github"
+        },
+        {
+          "text": "SO System",
+          "url": "https://github.com/omar92/SO_System",
+          "type": "github"
+        }
+      ],
+      "subProjects": [
+        {
+          "title": "SO State Machine",
+          "tags": ["Unity", "C#", "Architecture"],
+          "description": "Scriptable Object-based state machine system with modular, debuggable game logic."
+        },
+        {
+          "title": "SO Events & Variables",
+          "tags": ["Unity", "C#", "Framework"],
+          "description": "Event-driven architecture system using Scriptable Objects for decoupled communication."
+        },
+        {
+          "title": "SO System",
+          "tags": ["Unity", "C#", "Framework"],
+          "description": "Comprehensive ScriptableObject framework for data-driven game development."
+        },
+        {
+          "title": "Optimized Unity Scroll List",
+          "tags": ["Unity", "C#", "UI", "Performance"],
+          "description": "High-performance scroll list implementation with object pooling."
+        }
+      ]
+    },
+    {
+      "id": "unreal-game-collection",
+      "name": "Unreal Engine Game Collection",
+      "category": "Unreal Engine",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+      "tags": ["Unreal Engine 5", "C++", "Multiplayer", "AI"],
+      "filterTags": ["Open Source"],
+      "shortDescription": "A collection of Unreal Engine projects showcasing multiplayer systems, combat mechanics, and modern C++ game development practices.",
+      "description": "A comprehensive portfolio of Unreal Engine projects demonstrating modern game development practices, including networked multiplayer, advanced combat systems, and level design.",
+      "links": [
+        {
+          "text": "Battle Blaster",
+          "url": "https://github.com/omar92/BattleBlaster_Unreal",
+          "type": "github"
+        },
+        {
+          "text": "ShooterSam",
+          "url": "https://github.com/omar92/ShooterSam_Unreal",
+          "type": "github"
+        },
+        {
+          "text": "Dungeon Escape",
+          "url": "https://github.com/omar92/DungeonEscape_Unreal",
+          "type": "github"
+        }
+      ],
+      "subProjects": [
+        {
+          "title": "Battle Blaster",
+          "tags": ["Unreal", "C++", "Multiplayer"],
+          "description": "Arena shooter with AI bots and multiplayer support."
+        },
+        {
+          "title": "ShooterSam",
+          "tags": ["Unreal", "C++", "AI"],
+          "description": "Cover-based tactical shooter with advanced AI behaviors."
+        },
+        {
+          "title": "Dungeon Escape",
+          "tags": ["Unreal", "C++", "Adventure"],
+          "description": "Third-person adventure prototype with combat and exploration."
+        }
+      ]
     },
     {
       "id": "3ashara-talwa",
@@ -206,9 +442,58 @@
         "Original art and music",
         "Custom VFX system"
       ],
+      "stats": {
+        "stars": 8
+      },
       "videos": [
         "https://www.youtube.com/embed/C-O4k4yMaR8",
         "https://www.youtube.com/embed/ElA8NzXpk4E"
+      ]
+    },
+    {
+      "id": "vr-training",
+      "name": "VR Training Simulator",
+      "category": "VR Game",
+      "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=1200&q=80",
+      "tags": ["VR", "Unity", "Training"],
+      "filterTags": ["VR", "Unity"],
+      "shortDescription": "Professional VR training application for industrial scenarios.",
+      "description": "A professional VR training application designed for industrial training scenarios. Provides immersive, hands-on training experiences in a safe virtual environment.",
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "https://github.com/omar92/VR-Training",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "Industrial training scenarios",
+        "Immersive VR experience",
+        "Safe learning environment",
+        "Progress tracking"
+      ]
+    },
+    {
+      "id": "vr-hackathon",
+      "name": "VR Hackathon Project",
+      "category": "VR Game",
+      "image": "https://images.unsplash.com/photo-1517232115160-ff93364542dd?w=1200&q=80",
+      "tags": ["VR", "Unity", "Hackathon"],
+      "filterTags": ["VR", "Unity"],
+      "shortDescription": "Award-winning VR experience developed during a hackathon event.",
+      "description": "An award-winning VR experience developed during a hackathon event, showcasing rapid prototyping and creative problem-solving in a time-constrained environment.",
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "https://github.com/omar92/VR-Hackathon",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "Rapid VR prototyping",
+        "Creative gameplay mechanics",
+        "Hackathon-winning design",
+        "Time-constrained development"
       ]
     },
     {
@@ -247,6 +532,55 @@
           "tags": ["VR", "Unity"],
           "description": "Users answer questions by throwing arrows at correct answers"
         }
+      ]
+    },
+    {
+      "id": "js-native-engine",
+      "name": "JS Native Game Engine",
+      "category": "Web Tools",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&q=80",
+      "tags": ["JavaScript", "WebGL", "Canvas", "Game Engine"],
+      "filterTags": ["Web", "Open Source"],
+      "shortDescription": "Lightweight game engine built from scratch in vanilla JavaScript.",
+      "description": "A lightweight game engine demonstrating core concepts like the game loop, rendering, input handling, and entity management without external dependencies.",
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "https://github.com/omar92/JS_native_gameEngine",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "Custom game loop implementation",
+        "Entity-component system",
+        "Input handling",
+        "Rendering pipeline"
+      ],
+      "stats": {
+        "stars": 3
+      }
+    },
+    {
+      "id": "webgl-demo",
+      "name": "WebGL Demo",
+      "category": "Web Tools",
+      "image": "https://images.unsplash.com/photo-1522252234503-e356532cafd5?w=1200&q=80",
+      "tags": ["JavaScript", "Three.js", "WebGL", "3D Graphics"],
+      "filterTags": ["Web", "Open Source"],
+      "shortDescription": "Interactive 3D graphics experiments using Three.js and WebGL.",
+      "description": "Interactive 3D graphics experiments using Three.js and WebGL. Demonstrates rendering techniques, shaders, and scene composition.",
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "https://github.com/omar92/WebGL_demo",
+          "type": "github"
+        }
+      ],
+      "features": [
+        "Three.js integration",
+        "Custom shaders",
+        "Interactive 3D scenes",
+        "WebGL rendering techniques"
       ]
     },
     {
