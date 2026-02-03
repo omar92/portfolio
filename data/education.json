@@ -1,0 +1,36 @@
+[
+  {
+    "id": "iti-diploma",
+    "school": "INFORMATION TECHNOLOGY INSTITUTE (ITI)",
+    "degree": "9-Month Diploma",
+    "startYear": 2017,
+    "endYear": 2018,
+    "startDateTime": "2017-1",
+    "endDateTime": "2018-1",
+    "details": [
+      {
+        "label": "Track",
+        "value": "Game Development."
+      },
+      {
+        "label": "Project Name",
+        "value": "Rhythm Attack."
+      }
+    ]
+  },
+  {
+    "id": "computer-engineer",
+    "school": "Computer Engineer",
+    "degree": "Bachelor's degree",
+    "startYear": 2008,
+    "endYear": 2013,
+    "startDateTime": "2008-1",
+    "endDateTime": "2013-1",
+    "details": [
+      {
+        "label": "Grade",
+        "value": "Very Good."
+      }
+    ]
+  }
+]

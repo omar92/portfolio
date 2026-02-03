@@ -1,0 +1,164 @@
+[
+  {
+    "id": "project-1",
+    "name": "3ashara Talwa",
+    "image": "img/Projects/Tawla/logo_updated.png",
+    "tags": ["Mobile", "Multiplayer", "Unity", "Release soon"],
+    "filterTags": ["Mobile", "Unity"],
+    "shortDescription": "3ashara Talwa is an online multiplayer game that is based on the rules of the backagamon game on middle east. 3ashara Talwa have two game modes \"ma7bosa\" and \"therteen\". 3ashara Talwa have strong Ai, character customization, many game mods and more.",
+    "modalId": "project-1-modal",
+    "description": "3ashara Talwa is an online multiplayer game that is based on the rules of the backagamon game on middle east. 3ashara Talwa have two game modes \"ma7bosa\" and \"therteen\". 3ashara Talwa have strong Ai, character customization, many game mods and more.",
+    "sections": [
+      {
+        "title": "Gameplay",
+        "content": "coming soon"
+      },
+      {
+        "title": "screen shots",
+        "content": "coming soon"
+      }
+    ]
+  },
+  {
+    "id": "project-2",
+    "name": "Estimation Kings",
+    "image": "img/Projects/Estimation Kings/unnamed.webp",
+    "tags": ["Mobile", "Multiplayer", "Phaser", "JavaScript", "Published"],
+    "filterTags": ["Mobile", "Web", "Published"],
+    "shortDescription": "Estimation Kings is a four players trick-taking card game, but once you enter the game you are on your own.",
+    "modalId": "project-2-modal",
+    "description": "Are you a pro Estimation Player? If you are familiar with Tarneeb, Spades, Trix, Hearts and Balot, you will extremely enjoy playing Estimation.\n\nEstimation Kings is a four players trick-taking card game, but once you enter the game you are on your own.\n\nAnd remember this rule, only kings survives in this game so you may live as a King or die as a Kooz.",
+    "features": [
+      "Challenge online players from around the world.",
+      "Progress through multiple levels.",
+      "Create your own profile.",
+      "Make new friends and chat with them.",
+      "Challenge your Facebook friends.",
+      "Use different game environments.",
+      "Select your favorite avatar.",
+      "Use different game-play card decks.",
+      "Use predefined messages and emotions.",
+      "Use actions to hit your opponents.",
+      "Free to play game without gambling ;)"
+    ],
+    "sections": [
+      {
+        "title": "Gameplay",
+        "type": "iframe",
+        "content": "<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/-gvC4kBzuU8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+      {
+        "title": "screen shots",
+        "type": "images",
+        "images": [
+          "img/Projects/Estimation Kings/unnamed (1).webp",
+          "img/Projects/Estimation Kings/unnamed (2).webp",
+          "img/Projects/Estimation Kings/unnamed (3).webp",
+          "img/Projects/Estimation Kings/unnamed (4).webp",
+          "img/Projects/Estimation Kings/unnamed (5).webp"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "text": "google store",
+        "url": "https://play.google.com/store/apps/details?id=com.el3ab.Estimation",
+        "target": "_blank",
+        "class": "button is-warning"
+      }
+    ]
+  },
+  {
+    "id": "project-3",
+    "name": "Rhythm Attack",
+    "image": "img/Projects/Rythim attack/cover.jpg",
+    "tags": ["PC", "VR", "Unity"],
+    "filterTags": ["PC", "VR", "Unity"],
+    "shortDescription": "Rhythm Attack is a hyper casual VR game,Where you have to defeat the rythem monsters by cuting the menions they throw at you untill they get tired then attck them with your gun to drain there health, every time you fail to kill the enemy he gets mad and level defficulty increase, this game was a graduation project from ITI game development deploma and it is 100% made by us Coding, Art, music and VFX.",
+    "modalId": "project-3-modal",
+    "description": "Rhythm Attack is a hyper casual VR game,Where you have to defeat the rythem monsters by cuting the menions they throw at you untill they get tired then attck them with your gun to drain there health, every time you fail to kill the enemy he gets mad and level defficulty increase, this game was a graduation project from ITI game development deploma and it is 100% made by us Coding, Art, music and VFX.",
+    "sections": [
+      {
+        "title": "Story",
+        "type": "iframe",
+        "content": "<figure class=\"image is-16by9\"><iframe class=\"has-ratio\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/C-O4k4yMaR8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></figure>"
+      },
+      {
+        "title": "Gameplay",
+        "type": "iframe",
+        "content": "<figure class=\"image is-16by9\"><iframe class=\"has-ratio\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/ElA8NzXpk4E\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></figure>"
+      }
+    ],
+    "links": [
+      {
+        "text": "Source code",
+        "url": "https://github.com/omar92/RhythmAttack-VR",
+        "target": "_blank",
+        "class": "button is-warning"
+      }
+    ]
+  },
+  {
+    "id": "project-4",
+    "name": "Zinad company (6 Projects)",
+    "image": "img/Projects/Zinad/logo.png",
+    "tags": ["PC", "Web", "VR", "Unity", "kinnect"],
+    "filterTags": ["PC", "Web", "VR", "Unity", "kinnect"],
+    "shortDescription": "Zinad is a security solutions company that uses serious games to enhance the employees security training for there clients.",
+    "modalId": "project-4-modal",
+    "description": "Zinad is a security solutions company that uses serious games to enhance the employees security training for there clients.",
+    "subProjects": [
+      {
+        "title": "Phishing mania",
+        "tags": ["Web", "Unity"],
+        "description": "game that teaches players how to identify phishing emails from real emails"
+      },
+      {
+        "title": "Who will be mellionaire",
+        "tags": ["Web", "Unity"],
+        "description": "An adaptation from the famous who wil be mellionaire tv-show but focused in security field"
+      },
+      {
+        "title": "The Office",
+        "tags": ["VR", "Web", "Unity"],
+        "description": "The user have to elementae any clean disk policy violations before he is is out if time"
+      },
+      {
+        "title": "Password Ninja / URL Punk",
+        "tags": ["Web", "Unity"],
+        "description": "The user need to cut the weak passwords / fake URL's to win"
+      },
+      {
+        "title": "Archery",
+        "tags": ["VR", "Unity"],
+        "description": "the user answer the questions by throwing arrows at the correct answers"
+      }
+    ],    
+    "sections": [
+      {
+        "title": "Gameplay",
+        "type": "iframe",
+        "content": "<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/-gvC4kBzuU8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+      },
+      {
+        "title": "screen shots",
+        "type": "images",
+        "images": [
+          "img/Projects/Estimation Kings/unnamed (1).webp",
+          "img/Projects/Estimation Kings/unnamed (2).webp",
+          "img/Projects/Estimation Kings/unnamed (3).webp",
+          "img/Projects/Estimation Kings/unnamed (4).webp",
+          "img/Projects/Estimation Kings/unnamed (5).webp"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "text": "Source code",
+        "url": "https://github.com/omar92/RhythmAttack-VR",
+        "target": "_blank",
+        "class": "button is-warning"
+      }
+    ]
+  }
+]

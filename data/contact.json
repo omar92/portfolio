@@ -1,0 +1,20 @@
+[
+  {
+    "id": "github",
+    "icon": "fab fa-2x fa-github",
+    "url": "https://github.com/omar92",
+    "label": "https://github.com/omar92"
+  },
+  {
+    "id": "email",
+    "icon": "fas fa-2x fa-envelope",
+    "url": "mailto:omarabdelzaher@gmail.com",
+    "label": "omarabdelzaher@gmail.com"
+  },
+  {
+    "id": "linkedin",
+    "icon": "fab fa-2x fa-linkedin-in",
+    "url": "https://www.linkedin.com/in/omarsleam/",
+    "label": "linkedin"
+  }
+]

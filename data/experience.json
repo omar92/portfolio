@@ -1,0 +1,52 @@
+[
+  {
+    "id": "zinad",
+    "company": "Zinad",
+    "url": "https://zinad.net/",
+    "logo": "img/ZINAD-IT-logo.png",
+    "position": "Senior Game Programmer",
+    "startDate": "Feb 2020",
+    "startDateTime": "2020-2",
+    "endDate": "Present",
+    "endDateTime": "2021-2",
+    "description": [
+      "Acting as Development Team Lead",
+      "Developing serious games regarding security awareness",
+      "Working on Web, kinect and VR games."
+    ],
+    "skills": ["c#", "Unity", "JavaScript", "VR"]
+  },
+  {
+    "id": "iti",
+    "company": "ITI",
+    "url": "https://www.iti.gov.eg/iti/home",
+    "logo": "img/ITI-logo.jpg",
+    "position": "Teaching Assistant",
+    "startDate": "Aug 2018",
+    "startDateTime": "2018-8",
+    "endDate": "Feb 2020",
+    "endDateTime": "2020-2",
+    "description": [
+      "Responsible for teaching multiple subjects as: c/c++ , HTML5 game development, design patterns, unity3D game engine, GamesOptimization, version control, ...etc."
+    ],
+    "skills": ["C/C++", "C#", "Unity", "JavaScript", "HTML5", "design patterns"]
+  },
+  {
+    "id": "a15",
+    "company": "A15",
+    "url": "http://a15.com/en-us/",
+    "subUrl": "https://play.google.com/store/apps/details?id=com.el3ab.Estimation",
+    "subLabel": "-El3ab.com-",
+    "logo": "img/a15-logo.gif",
+    "position": "Game Programmer",
+    "startDate": "May 2015",
+    "startDateTime": "2015-8",
+    "endDate": "Oct 2017",
+    "endDateTime": "2017-6",
+    "description": [
+      "Responsible for rebuilding el3ab.com flash games to (web, android,iOS) Platforms using Unity3D and Phaser.js.",
+      "Developing server-side of multiplayer card and board games using JAVA and Smart Fox Server."
+    ],
+    "skills": ["C#", "Unity", "JavaScript", "HTML5", "Java", "SmartFox"]
+  }
+]
